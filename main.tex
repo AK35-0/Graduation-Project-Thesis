@@ -1,0 +1,144 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CLEANED THESIS MAIN FILE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt, twoside, openright]{Thesis}
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage[square, numbers, comma, sort&compress]{natbib}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage{pifont}
+\usepackage{hhline}
+\usepackage{textcomp}
+\usepackage{breqn}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{notoccite} % Prevent citations in TOC from messing up numbering
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % Clear all default headers
+
+\renewcommand{\lhead}[1]{} 
+\renewcommand{\rhead}[1]{}
+
+\fancyhead[LE]{\thepage}
+\fancyhead[RE]{\leftmark} 
+
+%    Odd Pages (Right Side of Book): Section on Left, Page # on Right
+\fancyhead[LO]{\rightmark} 
+\fancyhead[RO]{\thepage}
+
+% 3. ENSURE Chapter/Section names are captured correctly
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+% -----------------------------------------------------------------
+
+% Graphic Path
+\graphicspath{{Pictures/}}
+
+% Hyperlinks
+\hypersetup{urlcolor=blue, colorlinks=true}
+
+%----------------------------------------------------------------------------------------
+%   INCLUDE ONLY (THE SPEED HACK)
+%----------------------------------------------------------------------------------------
+% Uncomment the line below to compile ONLY specific chapters.
+% This makes compilation 10x faster while keeping references intact.
+
+%\includeonly{Chapters/Chapter1}
+%\includeonly{Chapters/Chapter2}
+%\includeonly{Chapters/Chapter3}
+%\includeonly{Chapters/Chapter4}        
+%\includeonly{Chapters/Chapter5}           
+%\includeonly{Chapters/Chapter6}
+
+%----------------------------------------------------------------------------------------
+%   DOCUMENT START
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\frontmatter % Roman numerals (i, ii, iii...)
+\setstretch{1.3}
+
+% --- PRELIMINARY PAGES ---
+\input{cover_asu}      % Ensure this file exists
+%\input{committee}      % Ensure this file exists
+%\input{statement}      % Ensure this file exists
+%\input{cv}             % Ensure this file exists
+\input{abstract}       % Ensure this file exists
+%\input{summary}        % Ensure this file exists
+%\input{Acknowledgment} % Ensure this file exists
+
+% --- LISTS ---
+\pagestyle{fancy}
+\lhead{\emph{Table of Contents}}
+\tableofcontents
+
+%\clearpage
+%\lhead{\emph{List of Figures}}
+%\listoffigures
+
+%\clearpage
+%\lhead{\emph{List of Tables}}
+%\listoftables
+
+%\clearpage
+%\lhead{\emph{List of Algorithms}}
+%\listofalgorithms
+
+% --- ABBREVIATIONS & SYMBOLS (Optional - Comment out if empty) ---
+%\clearpage
+%\lhead{\emph{List of Abbreviations}}
+%\listofsymbols{ll}{
+%    \textbf{PCIe} & \textbf{P}eripheral \textbf{C}omponent \textbf{I}nterconnect \textbf{e}xpress \\
+%    \textbf{VGA} & \textbf{V}ariable \textbf{G}ain \textbf{A}mplifier \\
+%    \textbf{CTLE} & \textbf{C}ontinuous \textbf{T}ime \textbf{L}inear \textbf{E}qualizer \\
+%    \textbf{DFE} & \textbf{D}ecision \textbf{F}eedback \textbf{E}qualizer \\
+%}
+
+%----------------------------------------------------------------------------------------
+%   MAIN CHAPTERS
+%----------------------------------------------------------------------------------------
+\mainmatter % Arabic numerals (1, 2, 3...)
+\pagestyle{fancy}
+
+% NOTE: We use \include instead of \input to allow \includeonly to work.
+% Make sure your filenames match these exactly!
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2}
+\include{Chapters/Chapter3}
+%\include{Chapters/Chapter4}
+%\include{Chapters/Chapter5}
+%\include{Chapters/Chapter6}
+
+%----------------------------------------------------------------------------------------
+%   BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{References} % Adds References to TOC
+\lhead{\emph{References}}
+
+\nocite{*}
+\bibliographystyle{IEEEtran} % Changed to IEEEtran for better engineering style (or keep unsrtnat)
+\bibliography{Bibliography}
+
+%----------------------------------------------------------------------------------------
+%   APPENDICES
+%----------------------------------------------------------------------------------------
+%\appendix
+%\include{Appendices/AppendixA}
+
+\end{document}
