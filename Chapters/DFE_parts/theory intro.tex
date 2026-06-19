@@ -5,14 +5,14 @@ The purpose of equalization in general is simply to remove or reduce the noise o
 
 The Decision Feedback Equalizer (DFE) is a non-linear equalizer that reconstructs the received signal by subtracting the interference caused by previously detected bits. Ideally, if the sequence of past bits is known correctly, their ISI contribution can be perfectly removed.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.45\textwidth]{DFE img/DFE_img_08.png}
     \includegraphics[width=0.45\textwidth]{DFE img/DFE_img_09.png}
     \caption{(a) unequalized pulse response (b) equalized pulse response}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.7\textwidth]{DFE img/DFE_img_10.png}
     \caption{Block diagram of 3 taps DFE}
@@ -37,7 +37,7 @@ Disadvantages:
 The implementation of DFE in multi-gigabit links is strictly limited by the feedback loop delay. The most critical path is the first tap (h1) loop. Once a decision is made by the comparator, it must be multiplied by the tap weight h1 and subtracted from the input signal before the next sampling edge.
 
 \begin{equation}
-    T_{regen} + T_{h1} + T_{sum} + T_{setup} < T_{clk} \tag{3.1}
+    T_{regen} + T_{h1} + T_{sum} + T_{setup} < T_{clk}
 \end{equation}
 
 Consequent taps don't have the same tough timing constraint due to the relaxed $T_{cq}$.
@@ -47,7 +47,7 @@ Consequent taps don't have the same tough timing constraint due to the relaxed $
 \subsection{Loop Unrolling}
 To break the direct timing dependency of the first tap, a technique known as \textbf{Loop Unrolling} is employed. Instead of waiting for the decision d(n-1), the DFE pre-calculates the summing node value for both possibilities (if the previous bit was +1 or -1).
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{DFE img/DFE_img_11.png}
     \caption{1-tap loop unrolling}
@@ -56,7 +56,7 @@ To break the direct timing dependency of the first tap, a technique known as \te
 Two comparators are required here. Once the actual decision d(n-1) arrives, a multiplexer selects the correct comparator output. The new timing constraint becomes:
 
 \begin{equation}
-    T_{regen} + T_{mux} + T_{setup} < T_{clk} \tag{3.2}
+    T_{regen} + T_{mux} + T_{setup} < T_{clk}
 \end{equation}
 
 This eliminates the summer and tap delay from the critical path, at the cost of doubling the hardware area and power for the first tap.
@@ -64,7 +64,7 @@ This eliminates the summer and tap delay from the critical path, at the cost of 
 \subsection{DFE IIR Equalization}
 As mentioned in [3]. If we have a smooth channel, we can make IIR filter instead of FIR and saving many taps and better performance.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.45\textwidth]{DFE img/DFE_img_12.png}
     \hfill

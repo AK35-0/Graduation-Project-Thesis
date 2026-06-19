@@ -1,0 +1,1884 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.6.19)  19 JUN 2026 16:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+(C:\Program Files\MiKTeX\tex/latex/thesis\thesis.cls
+Document Class: thesis 1996/25/01 1.0g LaTeX document class (wm).
+\hours=\count276
+\minutes=\count277
+(C:\Program Files\MiKTeX\tex/latex/base\bk11.clo
+File: bk11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count278
+\c@chapter=\count279
+\c@section=\count280
+\c@subsection=\count281
+\c@subsubsection=\count282
+\c@paragraph=\count283
+\c@subparagraph=\count284
+\beforechaptervspace=\skip49
+\afterchaptervspace=\skip50
+\exampleindent=\skip51
+\c@figure=\count285
+\c@table=\count286
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\bibindent=\dimen150
+)
+(C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count287
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip56
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen151
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count293
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip17
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks18
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks19
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks20
+\multlinegap=\skip57
+\multlinetaggap=\skip58
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: thesis document class detected.
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption-thesis.sto
+File: caption-thesis.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ thesis document class (AR)
+))
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
+)
+(C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count302
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count303
+)
+(C:\Program Files\MiKTeX\tex/latex/tabu\tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen170
+\ar@mcellbox=\box55
+\extrarowheight=\dimen171
+\NC@list=\toks23
+\extratabsurround=\skip59
+\backup@length=\skip60
+\ar@cellbox=\box56
+)
+(C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count304
+\@vwid@loff=\dimen172
+\@vwid@roff=\dimen173
+)
+==> First Aid for varwidth.sty applied!
+\c@taburow=\count305
+\tabu@nbcols=\count306
+\tabu@cnt=\count307
+\tabu@Xcol=\count308
+\tabu@alloc=\count309
+\tabu@nested=\count310
+\tabu@target=\dimen174
+\tabu@spreadtarget=\dimen175
+\tabu@naturalX=\dimen176
+\tabucolX=\dimen177
+\tabu@Xsum=\dimen178
+\extrarowdepth=\dimen179
+\abovetabulinesep=\dimen180
+\belowtabulinesep=\dimen181
+\tabustrutrule=\dimen182
+\tabu@thebody=\toks24
+\tabu@footnotes=\toks25
+\tabu@box=\box58
+\tabu@arstrutbox=\box59
+\tabu@hleads=\box60
+\tabu@vleads=\box61
+\tabu@cellskip=\skip61
+) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip62
+\multirow@cntb=\count311
+\multirow@dima=\skip63
+\bigstrutjot=\dimen183
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2026-01-28 v4.27 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count312
+\LTcapwidth=\dimen184
+\LT@head=\box62
+\LT@firsthead=\box63
+\LT@foot=\box64
+\LT@lastfoot=\box65
+\LT@gbox=\box66
+\LT@cols=\count313
+\LT@rows=\count314
+\c@LT@tables=\count315
+\c@LT@chunks=\count316
+\LT@p@ftn=\toks26
+)
+(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-04-24 v7.01q Hypertext links for LaTeX
+
+(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count317
+)
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count318
+)
+(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen185
+\Hy@linkcounter=\count319
+\Hy@pagecounter=\count320
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-04-24 v7.01q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count321
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-04-24 v7.01q Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count322
+
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen186
+
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count323
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count324
+\c@Item=\count325
+\c@Hfootnote=\count326
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-04-24 v7.01q Hyperref driver for pdfTeX
+\Fld@listcount=\count327
+\c@bookmark@seq@number=\count328
+
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip68
+)
+(C:\Program Files\MiKTeX\tex/latex/psnfss\pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(C:\Program Files\MiKTeX\tex/latex/psnfss\upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(C:\Program Files\MiKTeX\tex/latex/psnfss\upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(C:\Program Files\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2026/05/02 v2.05 Table rule package (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen189
+\lightrulewidth=\dimen190
+\cmidrulewidth=\dimen191
+\belowrulesep=\dimen192
+\belowbottomsep=\dimen193
+\aboverulesep=\dimen194
+\abovetopsep=\dimen195
+\cmidrulesep=\dimen196
+\cmidrulekern=\dimen197
+\defaultaddspace=\dimen198
+\@cmidla=\count329
+\@cmidlb=\count330
+\@aboverulesep=\dimen199
+\@belowrulesep=\dimen256
+\@thisruleclass=\count331
+\@lastruleclass=\count332
+\@thisrulewidth=\dimen257
+)
+(C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Program Files\MiKTeX\tex/latex/breqn\breqn.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-05-26 L3 programming layer (loader) 
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count333
+))
+Package: breqn 2021/10/28 v0.98l Breaking equations
+
+(C:\Program Files\MiKTeX\tex/latex/breqn\flexisym.sty
+Package: flexisym 2021/10/28 v0.98l Make math characters macros
+LaTeX Info: Redefining \textprime on input line 299.
+LaTeX Info: Redefining \not on input line 357.
+
+(C:\Program Files\MiKTeX\tex/latex/breqn\cmbase.sym
+File: cmbase.sym 2007/12/19 v0.92
+LaTeX Info: Redefining \hbar on input line 324.
+LaTeX Info: Redefining \surd on input line 326.
+LaTeX Info: Redefining \angle on input line 334.
+LaTeX Info: Redefining \neq on input line 335.
+LaTeX Info: Redefining \mapsto on input line 336.
+LaTeX Info: Redefining \cong on input line 337.
+LaTeX Info: Redefining \notin on input line 340.
+LaTeX Info: Redefining \rightleftharpoons on input line 341.
+LaTeX Info: Redefining \doteq on input line 342.
+LaTeX Info: Redefining \hookrightarrow on input line 343.
+LaTeX Info: Redefining \hookleftarrow on input line 344.
+LaTeX Info: Redefining \bowtie on input line 345.
+LaTeX Info: Redefining \models on input line 346.
+LaTeX Info: Redefining \Longrightarrow on input line 347.
+LaTeX Info: Redefining \longrightarrow on input line 348.
+LaTeX Info: Redefining \Longleftarrow on input line 349.
+LaTeX Info: Redefining \longleftarrow on input line 350.
+LaTeX Info: Redefining \longmapsto on input line 351.
+LaTeX Info: Redefining \longleftrightarrow on input line 352.
+LaTeX Info: Redefining \Longleftrightarrow on input line 353.
+LaTeX Info: Redefining \cdots on input line 357.
+LaTeX Info: Redefining \vdots on input line 360.
+LaTeX Info: Redefining \ddots on input line 365.
+)
+(C:\Program Files\MiKTeX\tex/latex/breqn\mathstyle.sty
+Package: mathstyle 2021/10/28 v0.98l Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 95.
+LaTeX Info: Redefining \textstyle on input line 97.
+LaTeX Info: Redefining \scriptstyle on input line 99.
+LaTeX Info: Redefining \scriptscriptstyle on input line 101.
+LaTeX Info: Redefining \genfrac on input line 149.
+))
+(C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count334
+\calc@Bcount=\count335
+\calc@Adimen=\dimen258
+\calc@Bdimen=\dimen259
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count336
+\calc@Cskip=\skip71
+)
+\inf@bad=\count337
+\maxint=\count338
+\listwidth=\dimen260
+\eqnumsep=\dimen261
+\eqmargin=\dimen262
+\eqlinespacing=\skip72
+\eqlineskip=\skip73
+\eqlineskiplimit=\dimen263
+\eqbinoffset=\muskip19
+\eqdelimoffset=\muskip20
+\eqindentstep=\dimen264
+\eqstyle=\toks27
+\eqbreakdepth=\count339
+\eqinterlinepenalty=\count340
+\intereqpenalty=\count341
+\intereqskip=\skip74
+\prerelpenalty=\count342
+\prebinoppenalty=\count343
+\Dmedmuskip=\muskip21
+\Dthickmuskip=\muskip22
+\eqleftskip=\skip75
+\eqrightskip=\skip76
+\eq@vspan=\skip77
+\eq@binoffset=\muskip23
+\EQ@box=\box67
+\EQ@copy=\box68
+\EQ@numbox=\box69
+\eq@wdNum=\dimen265
+\GRP@numbox=\box70
+\grp@wdNum=\dimen266
+\eq@lines=\count344
+\eq@curline=\count345
+\eq@badness=\count346
+\EQ@vims=\count347
+\eq@dp=\dimen267
+\eq@wdL=\dimen268
+\eq@wdT=\dimen269
+\eq@wdMin=\dimen270
+\grp@wdL=\dimen271
+\grp@wdR=\dimen272
+\grp@wdT=\dimen273
+\eq@wdRmax=\dimen274
+\eq@firstht=\dimen275
+\eq@wdCond=\dimen276
+\eq@indentstep=\dimen277
+\eq@linewidth=\dimen278
+\grp@linewidth=\dimen279
+\eq@hshift=\dimen280
+\eq@given@sidespace=\dimen281
+\mathindent=\dimen282
+\eq@final@linecount=\count348
+\eq@wdR=\dimen283
+\EQ@continue=\toks28
+\lr@level=\count349
+\GRP@queue=\toks29
+\GRP@box=\box71
+\GRP@wholebox=\box72
+\darraycolsep=\skip78
+\cur@row=\count350
+\cur@col=\count351
+\conditionsep=\skip79
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2026-05-17 v2.16e rotated objects in LaTeX
+
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count352
+\rotFPtop=\skip80
+\rotFPbot=\skip81
+\rot@float@box=\box73
+\rot@mess@toks=\toks30
+)
+(C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count353
+\float@exts=\toks31
+\float@box=\box74
+\@float@everytoks=\toks32
+\@floatcapt=\box75
+)
+(C:\Program Files\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count354
+\algocf@hangindent=\skip82
+
+(C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count355
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Program Files\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip83
+\skiplinenumber=\skip84
+\skiprule=\skip85
+\skiphlne=\skip86
+\skiptext=\skip87
+\skiplength=\skip88
+\algomargin=\skip89
+\skipalgocfslide=\skip90
+\algowidth=\dimen284
+\inoutsize=\dimen285
+\inoutindent=\dimen286
+\interspacetitleruled=\dimen287
+\interspacealgoruled=\dimen288
+\interspacetitleboxruled=\dimen289
+\algocf@ruledwidth=\skip91
+\algocf@inoutbox=\box76
+\algocf@inputbox=\box77
+\AlCapSkip=\skip92
+\AlCapHSkip=\skip93
+\algoskipindent=\skip94
+\algocf@nlbox=\box78
+\algocf@hangingbox=\box79
+\algocf@untilbox=\box80
+\algocf@skipuntil=\skip95
+\algocf@capbox=\box81
+\algocf@lcaptionbox=\skip96
+\algoheightruledefault=\skip97
+\algoheightrule=\skip98
+\algotitleheightruledefault=\skip99
+\algotitleheightrule=\skip100
+\c@algocfline=\count356
+\c@algocfproc=\count357
+\c@algocf=\count358
+\algocf@algoframe=\box82
+\algocf@algobox=\box83
+)
+(C:\Program Files\MiKTeX\tex/latex/notoccite\notoccite.sty
+Package: notoccite 2000/07/20
+)
+(C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip101
+\f@nch@offset@elh=\skip102
+\f@nch@offset@erh=\skip103
+\f@nch@offset@olh=\skip104
+\f@nch@offset@orh=\skip105
+\f@nch@offset@elf=\skip106
+\f@nch@offset@erf=\skip107
+\f@nch@offset@olf=\skip108
+\f@nch@offset@orf=\skip109
+\f@nch@height=\skip110
+\f@nch@footalignment=\skip111
+\f@nch@widthL=\skip112
+\f@nch@widthC=\skip113
+\f@nch@widthR=\skip114
+\@temptokenb=\toks33
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+ (main.aux
+(Chapters/Chapter1.aux) (Chapters/Chapter2.aux) (Chapters/Chapter3.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count359
+\scratchdimen=\dimen290
+\scratchbox=\box84
+\nofMPsegments=\count360
+\nofMParguments=\count361
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count362
+\MPscratchDim=\dimen291
+\MPnumerator=\count363
+\makeMPintoPDFobject=\count364
+\everyMPtoPDFconversion=\toks35
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2026-05-17 v1.3f Standard LaTeX Color (DPC)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 73.
+ (main.out)
+(main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+ (cover_asu.tex
+<Pictures/asu_logo.jpg, id=327, 770.88pt x 770.88pt>
+File: Pictures/asu_logo.jpg Graphic file (type jpg)
+<use Pictures/asu_logo.jpg>
+Package pdftex.def Info: Pictures/asu_logo.jpg  used on input line 8.
+(pdftex.def)             Requested size: 113.80379pt x 113.81102pt.
+) (abstract.tex [1
+
+
+{C:/Users/hesha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Pictures/a
+su_logo.jpg>] [2
+
+]) [3] [4
+
+] (main.toc [5] [6]
+Overfull \hbox (1.22888pt too wide) in paragraph at lines 108--108
+ \OT1/cmr/m/n/10.95 Em-ploy-ing Track-and-Regenerate Slicer (Azita Emami 
+ []
+
+[7])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [8]
+\openout2 = `Chapters/Chapter1.aux'.
+
+ (Chapters/Chapter1.tex
+Chapter 1.
+
+Underfull \vbox (badness 3302) has occurred while \output is active []
+
+ [1
+
+
+
+]
+<amr assets/pcivpcie.png, id=463, 803.0pt x 433.62pt>
+File: amr assets/pcivpcie.png Graphic file (type png)
+<use amr assets/pcivpcie.png>
+Package pdftex.def Info: amr assets/pcivpcie.png  used on input line 30.
+(pdftex.def)             Requested size: 180.0pt x 97.19638pt.
+
+Overfull \hbox (3.96625pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/10.95 PCIe has evolved from a sim-ple se-rial in-ter-face to a com
+-plex high-performance
+ []
+
+
+Underfull \vbox (badness 4096) has occurred while \output is active []
+
+ [2 <./amr assets/pcivpcie.png (PNG copy)>]
+Overfull \hbox (2.03569pt too wide) in paragraph at lines 61--62
+[]\OT1/cmr/bx/n/10.95 Physical Layer: \OT1/cmr/m/n/10.95 Han-dles the elec-tri-
+cal sig-nal-ing, en-cod-ing, and equal-
+ []
+
+<amr assets/pciearc.png, id=469, 1915.155pt x 1350.04375pt>
+File: amr assets/pciearc.png Graphic file (type png)
+<use amr assets/pciearc.png>
+Package pdftex.def Info: amr assets/pciearc.png  used on input line 66.
+(pdftex.def)             Requested size: 180.0pt x 126.87529pt.
+
+Underfull \vbox (badness 1454) has occurred while \output is active []
+
+ [3 <./amr assets/pciearc.png>]
+<amr assets/pam4vnrz.png, id=484, 724.7075pt x 361.35pt>
+File: amr assets/pam4vnrz.png Graphic file (type png)
+<use amr assets/pam4vnrz.png>
+Package pdftex.def Info: amr assets/pam4vnrz.png  used on input line 78.
+(pdftex.def)             Requested size: 251.9989pt x 125.64732pt.
+ [4 <./amr assets/pam4vnrz.png>]
+<amr assets/flit.png, id=494, 274.2975pt x 135.342pt>
+File: amr assets/flit.png Graphic file (type png)
+<use amr assets/flit.png>
+Package pdftex.def Info: amr assets/flit.png  used on input line 101.
+(pdftex.def)             Requested size: 288.0011pt x 142.1112pt.
+ [5 <./amr assets/flit.png>]) [6]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (Chapters/Chapter2.tex
+Chapter 2.
+<DFE img/nrz.png, id=514, 280.04625pt x 87.32625pt>
+File: DFE img/nrz.png Graphic file (type png)
+<use DFE img/nrz.png>
+Package pdftex.def Info: DFE img/nrz.png  used on input line 17.
+(pdftex.def)             Requested size: 180.0pt x 56.13112pt.
+
+Overfull \hbox (6.24753pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/10.95 To over-come the band-width lim-i-ta-tion, Pulse Am-pli-tude
+ Modulation-4 (PAM-
+ []
+
+<DFE img/DFE_img_02.png, id=515, 803.0pt x 361.35pt>
+File: DFE img/DFE_img_02.png Graphic file (type png)
+<use DFE img/DFE_img_02.png>
+Package pdftex.def Info: DFE img/DFE_img_02.png  used on input line 26.
+(pdftex.def)             Requested size: 360.0pt x 162.00499pt.
+
+Underfull \vbox (badness 1629) has occurred while \output is active []
+
+ [7
+
+
+
+
+ <./DFE img/nrz.png>]
+<DFE img/DFE_img_03.png, id=522, 417.05812pt x 203.25937pt>
+File: DFE img/DFE_img_03.png Graphic file (type png)
+<use DFE img/DFE_img_03.png>
+Package pdftex.def Info: DFE img/DFE_img_03.png  used on input line 35.
+(pdftex.def)             Requested size: 143.9978pt x 70.18037pt.
+<DFE img/DFE_img_04.png, id=523, 1418.29875pt x 924.45375pt>
+File: DFE img/DFE_img_04.png Graphic file (type png)
+<use DFE img/DFE_img_04.png>
+Package pdftex.def Info: DFE img/DFE_img_04.png  used on input line 49.
+(pdftex.def)             Requested size: 288.0011pt x 187.70868pt.
+ [8 <./DFE img/DFE_img_02.png> <./DFE img/DFE_img_03.png>]
+<DFE img/DFE_img_05.png, id=532, 368.87813pt x 275.52937pt>
+File: DFE img/DFE_img_05.png Graphic file (type png)
+<use DFE img/DFE_img_05.png>
+Package pdftex.def Info: DFE img/DFE_img_05.png  used on input line 68.
+(pdftex.def)             Requested size: 161.9989pt x 121.00206pt.
+<DFE img/DFE_img_06.png, id=533, 436.63126pt x 277.035pt>
+File: DFE img/DFE_img_06.png Graphic file (type png)
+<use DFE img/DFE_img_06.png>
+Package pdftex.def Info: DFE img/DFE_img_06.png  used on input line 69.
+(pdftex.def)             Requested size: 161.9989pt x 102.78456pt.
+ [9 <./DFE img/DFE_img_04.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./DFE img/DFE_img_05.png> <./DFE img/DFE_img_06.png>]
+<DFE img/DFE_img_07.png, id=557, 386.19281pt x 241.65282pt>
+File: DFE img/DFE_img_07.png Graphic file (type png)
+<use DFE img/DFE_img_07.png>
+Package pdftex.def Info: DFE img/DFE_img_07.png  used on input line 121.
+(pdftex.def)             Requested size: 216.0022pt x 135.15872pt.
+ [11 <./DFE img/DFE_img_07.png>] [12]
+<amr assets/staircase.png, id=579, 1841.88126pt x 1035.87pt>
+File: amr assets/staircase.png Graphic file (type png)
+<use amr assets/staircase.png>
+Package pdftex.def Info: amr assets/staircase.png  used on input line 175.
+(pdftex.def)             Requested size: 288.0011pt x 161.96492pt.
+
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+ [13]
+<amr assets/overshoot.png, id=586, 1840.8775pt x 1034.86626pt>
+File: amr assets/overshoot.png Graphic file (type png)
+<use amr assets/overshoot.png>
+Package pdftex.def Info: amr assets/overshoot.png  used on input line 190.
+(pdftex.def)             Requested size: 288.0011pt x 161.90273pt.
+
+Underfull \vbox (badness 7759) has occurred while \output is active []
+
+ [14 <./amr assets/staircase.png>] [15 <./amr assets/overshoot.png>]
+<amr assets/vgaideal.png, id=602, 536.0025pt x 216.81pt>
+File: amr assets/vgaideal.png Graphic file (type png)
+<use amr assets/vgaideal.png>
+Package pdftex.def Info: amr assets/vgaideal.png  used on input line 213.
+(pdftex.def)             Requested size: 288.0011pt x 116.4934pt.
+ [16 <./amr assets/vgaideal.png>]
+<CTLE Chapter img/channel_with_ctle.png, id=612, 432.11438pt x 358.33875pt>
+File: CTLE Chapter img/channel_with_ctle.png Graphic file (type png)
+<use CTLE Chapter img/channel_with_ctle.png>
+Package pdftex.def Info: CTLE Chapter img/channel_with_ctle.png  used on input 
+line 241.
+(pdftex.def)             Requested size: 105.2983pt x 87.32079pt.
+
+Underfull \hbox (badness 1769) in paragraph at lines 242--242
+[][]|\OT1/cmr/m/n/10 CTLE com-pen-sa-tion with real
+ []
+
+<CTLE Chapter img/CTLE_drawback.png, id=613, 472.76625pt x 241.65282pt>
+File: CTLE Chapter img/CTLE_drawback.png Graphic file (type png)
+<use CTLE Chapter img/CTLE_drawback.png>
+Package pdftex.def Info: CTLE Chapter img/CTLE_drawback.png  used on input line
+ 248.
+(pdftex.def)             Requested size: 161.9989pt x 82.80614pt.
+
+Underfull \hbox (badness 1968) in paragraph at lines 249--249
+[][]|\OT1/cmr/m/n/10 CTLE Be-hav-ioral model (Mo-
+ []
+
+[17 <./CTLE Chapter img/channel_with_ctle.png> <./CTLE Chapter img/CTLE_drawbac
+k.png>]
+<CTLE Chapter img/Eye_ctle.png, id=623, 807.7678pt x 301.8778pt>
+File: CTLE Chapter img/Eye_ctle.png Graphic file (type png)
+<use CTLE Chapter img/Eye_ctle.png>
+Package pdftex.def Info: CTLE Chapter img/Eye_ctle.png  used on input line 286.
+
+(pdftex.def)             Requested size: 251.9989pt x 94.17535pt.
+
+Underfull \vbox (badness 2393) has occurred while \output is active []
+
+ [18]
+<CTLE Chapter img/CTLE effect.png, id=628, 328.97906pt x 245.41687pt>
+File: CTLE Chapter img/CTLE effect.png Graphic file (type png)
+<use CTLE Chapter img/CTLE effect.png>
+Package pdftex.def Info: CTLE Chapter img/CTLE effect.png  used on input line 2
+96.
+(pdftex.def)             Requested size: 123.83835pt x 92.3831pt.
+<CTLE Chapter img/cursors.png, id=629, 307.90031pt x 191.9672pt>
+File: CTLE Chapter img/cursors.png Graphic file (type png)
+<use CTLE Chapter img/cursors.png>
+Package pdftex.def Info: CTLE Chapter img/cursors.png  used on input line 303.
+(pdftex.def)             Requested size: 144.00055pt x 89.78227pt.
+<CTLE Chapter img/CTLE_drawback2.png, id=630, 372.64218pt x 257.46187pt>
+File: CTLE Chapter img/CTLE_drawback2.png Graphic file (type png)
+<use CTLE Chapter img/CTLE_drawback2.png>
+Package pdftex.def Info: CTLE Chapter img/CTLE_drawback2.png  used on input lin
+e 326.
+(pdftex.def)             Requested size: 198.0011pt x 136.79984pt.
+
+[19 <./CTLE Chapter img/Eye_ctle.png> <./CTLE Chapter img/CTLE effect.png> <./C
+TLE Chapter img/cursors.png>] [20 <./CTLE Chapter img/CTLE_drawback2.png>]
+<DFE img/DFE_img_08.png, id=646, 240.14719pt x 134.00063pt>
+File: DFE img/DFE_img_08.png Graphic file (type png)
+<use DFE img/DFE_img_08.png>
+Package pdftex.def Info: DFE img/DFE_img_08.png  used on input line 351.
+(pdftex.def)             Requested size: 108.0011pt x 60.26495pt.
+<DFE img/DFE_img_09.png, id=647, 219.82124pt x 125.71968pt>
+File: DFE img/DFE_img_09.png Graphic file (type png)
+<use DFE img/DFE_img_09.png>
+Package pdftex.def Info: DFE img/DFE_img_09.png  used on input line 352.
+(pdftex.def)             Requested size: 108.0011pt x 61.76622pt.
+<DFE img/DFE_img_10.png, id=648, 463.7325pt x 309.40594pt>
+File: DFE img/DFE_img_10.png Graphic file (type png)
+<use DFE img/DFE_img_10.png>
+Package pdftex.def Info: DFE img/DFE_img_10.png  used on input line 358.
+(pdftex.def)             Requested size: 198.0011pt x 132.10716pt.
+
+[21 <./DFE img/DFE_img_08.png> <./DFE img/DFE_img_09.png> <./DFE img/DFE_img_10
+.png>] (Chapters/DFE_parts/theory algo.tex [22])
+(Chapters/DFE_parts/theory anaysis.tex
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.15
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \begin{equation}
+                    
+<DFE img/DFE_img_37.png, id=665, 709.14937pt x 405.01312pt>
+File: DFE img/DFE_img_37.png Graphic file (type png)
+<use DFE img/DFE_img_37.png>
+Package pdftex.def Info: DFE img/DFE_img_37.png  used on input line 14.
+(pdftex.def)             Requested size: 216.0022pt x 123.36504pt.
+ [23] [24 <./DFE img/DFE_img_37.png>]
+<DFE img/DFE_img_38.png, id=680, 493.0922pt x 283.0575pt>
+File: DFE img/DFE_img_38.png Graphic file (type png)
+<use DFE img/DFE_img_38.png>
+Package pdftex.def Info: DFE img/DFE_img_38.png  used on input line 44.
+(pdftex.def)             Requested size: 120.95839pt x 69.43391pt.
+<DFE img/DFE_img_39.png, id=683, 397.485pt x 319.94531pt>
+File: DFE img/DFE_img_39.png Graphic file (type png)
+<use DFE img/DFE_img_39.png>
+Package pdftex.def Info: DFE img/DFE_img_39.png  used on input line 50.
+(pdftex.def)             Requested size: 120.95839pt x 97.36104pt.
+<DFE img/DFE_img_40.png, id=686, 998.73125pt x 425.59pt>
+File: DFE img/DFE_img_40.png Graphic file (type png)
+<use DFE img/DFE_img_40.png>
+Package pdftex.def Info: DFE img/DFE_img_40.png  used on input line 80.
+(pdftex.def)             Requested size: 251.9989pt x 107.38431pt.
+ [25 <./DFE img/DFE_img_38.png> <./DFE img/DFE_img_39.png>]
+<DFE img/DFE_img_41.png, id=700, 663.22781pt x 390.70969pt>
+File: DFE img/DFE_img_41.png Graphic file (type png)
+<use DFE img/DFE_img_41.png>
+Package pdftex.def Info: DFE img/DFE_img_41.png  used on input line 92.
+(pdftex.def)             Requested size: 216.0022pt x 127.24742pt.
+ [26 <./DFE img/DFE_img_40.png> <./DFE img/DFE_img_41.png>]
+<DFE img/DFE_img_42.png, id=711, 566.115pt x 365.86688pt>
+File: DFE img/DFE_img_42.png Graphic file (type png)
+<use DFE img/DFE_img_42.png>
+Package pdftex.def Info: DFE img/DFE_img_42.png  used on input line 107.
+(pdftex.def)             Requested size: 180.0pt x 116.32613pt.
+)) [27 <./DFE img/DFE_img_42.png>]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (Chapters/Chapter3.tex
+[28
+
+
+
+
+]
+Chapter 3.
+[29] [30]
+<amr assets/shunt.png, id=742, 773.89125pt x 871.255pt>
+File: amr assets/shunt.png Graphic file (type png)
+<use amr assets/shunt.png>
+Package pdftex.def Info: amr assets/shunt.png  used on input line 52.
+(pdftex.def)             Requested size: 86.39923pt x 97.26083pt.
+<amr assets/bshunt.png, id=743, 549.05125pt x 624.3325pt>
+File: amr assets/bshunt.png Graphic file (type png)
+<use amr assets/bshunt.png>
+Package pdftex.def Info: amr assets/bshunt.png  used on input line 58.
+(pdftex.def)             Requested size: 86.39923pt x 98.23763pt.
+<amr assets/series.png, id=744, 309.155pt x 220.825pt>
+File: amr assets/series.png Graphic file (type png)
+<use amr assets/series.png>
+Package pdftex.def Info: amr assets/series.png  used on input line 67.
+(pdftex.def)             Requested size: 103.68013pt x 74.05853pt.
+<amr assets/bss.png, id=745, 356.33125pt x 323.2075pt>
+File: amr assets/bss.png Graphic file (type png)
+<use amr assets/bss.png>
+Package pdftex.def Info: amr assets/bss.png  used on input line 73.
+(pdftex.def)             Requested size: 86.39923pt x 78.36539pt.
+ [31 <./amr assets/shunt.png> <./amr assets/bshunt.png> <./amr assets/series.pn
+g> <./amr assets/bss.png>]
+Overfull \hbox (9.25067pt too wide) in paragraph at lines 87--88
+[]\OT1/cmr/bx/n/10.95 Performance: \OT1/cmr/m/n/10.95 An asym-met-ric T-coil ca
+n the-o-ret-i-cally achieve a BWER
+ []
+
+<amr assets/tcoil.png, id=755, 1074.0125pt x 633.36626pt>
+File: amr assets/tcoil.png Graphic file (type png)
+<use amr assets/tcoil.png>
+Package pdftex.def Info: amr assets/tcoil.png  used on input line 92.
+(pdftex.def)             Requested size: 143.9978pt x 84.91122pt.
+<amr assets/bwcomp.png, id=759, 783.92876pt x 669.50125pt>
+File: amr assets/bwcomp.png Graphic file (type png)
+<use amr assets/bwcomp.png>
+Package pdftex.def Info: amr assets/bwcomp.png  used on input line 119.
+(pdftex.def)             Requested size: 251.9989pt x 215.21527pt.
+[32 <./amr assets/tcoil.png>]
+<amr assets/vgatunemethod.png, id=771, 212.795pt x 119.44624pt>
+File: amr assets/vgatunemethod.png Graphic file (type png)
+<use amr assets/vgatunemethod.png>
+Package pdftex.def Info: amr assets/vgatunemethod.png  used on input line 133.
+(pdftex.def)             Requested size: 108.0011pt x 60.62332pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./amr assets/bwcomp.png> <./amr assets/vgatunemethod.png>]
+<amr assets/passivevga.png, id=782, 227.85126pt x 120.45pt>
+File: amr assets/passivevga.png Graphic file (type png)
+<use amr assets/passivevga.png>
+Package pdftex.def Info: amr assets/passivevga.png  used on input line 143.
+(pdftex.def)             Requested size: 108.0011pt x 57.09303pt.
+ [34 <./amr assets/passivevga.png>]
+<amr assets/rlvga.png, id=790, 333.245pt x 279.0425pt>
+File: amr assets/rlvga.png Graphic file (type png)
+<use amr assets/rlvga.png>
+Package pdftex.def Info: amr assets/rlvga.png  used on input line 161.
+(pdftex.def)             Requested size: 92.16246pt x 77.16908pt.
+<amr assets/2quadvga.png, id=791, 211.79124pt x 192.72pt>
+File: amr assets/2quadvga.png Graphic file (type png)
+<use amr assets/2quadvga.png>
+Package pdftex.def Info: amr assets/2quadvga.png  used on input line 169.
+(pdftex.def)             Requested size: 92.16246pt x 83.86192pt.
+<amr assets/4quadvga.png, id=792, 240.9pt x 229.85875pt>
+File: amr assets/4quadvga.png Graphic file (type png)
+<use amr assets/4quadvga.png>
+Package pdftex.def Info: amr assets/4quadvga.png  used on input line 177.
+(pdftex.def)             Requested size: 92.16246pt x 87.93646pt.
+
+Overfull \hbox (22.20811pt too wide) in paragraph at lines 191--192
+[]\OT1/cmr/bx/n/10.95 Linearization: \OT1/cmr/m/n/10.95 The re-sis-tive de-gen-
+er-a-tion lin-earizes the ef-fec-tive transcon-
+ []
+
+[35 <./amr assets/rlvga.png> <./amr assets/2quadvga.png> <./amr assets/4quadvga
+.png>]
+<amr assets/digitalvga.png, id=807, 250.9375pt x 297.11pt>
+File: amr assets/digitalvga.png Graphic file (type png)
+<use amr assets/digitalvga.png>
+Package pdftex.def Info: amr assets/digitalvga.png  used on input line 199.
+(pdftex.def)             Requested size: 126.0022pt x 149.18932pt.
+<amr assets/hybridvga.png, id=808, 285.065pt x 329.73187pt>
+File: amr assets/hybridvga.png Graphic file (type png)
+<use amr assets/hybridvga.png>
+Package pdftex.def Info: amr assets/hybridvga.png  used on input line 209.
+(pdftex.def)             Requested size: 126.0022pt x 145.74156pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36 <./amr assets/digitalvga.png>] (Chapters/CTLE_parts/intro.tex
+<CTLE Chapter img/survey.png, id=815, 701.62125pt x 377.15906pt>
+File: CTLE Chapter img/survey.png Graphic file (type png)
+<use CTLE Chapter img/survey.png>
+Package pdftex.def Info: CTLE Chapter img/survey.png  used on input line 6.
+(pdftex.def)             Requested size: 288.0011pt x 154.82037pt.
+<CTLE Chapter img/survey_2.png, id=816, 709.90219pt x 470.50781pt>
+File: CTLE Chapter img/survey_2.png Graphic file (type png)
+<use CTLE Chapter img/survey_2.png>
+Package pdftex.def Info: CTLE Chapter img/survey_2.png  used on input line 15.
+(pdftex.def)             Requested size: 190.79956pt x 126.45728pt.
+
+Overfull \hbox (61.9208pt too wide) in paragraph at lines 22--33
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[][]|\OT1/cmr/m/n/10 Most preva-lent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+\OT1/cmr/m/n/10 CTLE ar-chi-tec-
+ []
+
+[37 <./amr assets/hybridvga.png> <./CTLE Chapter img/survey.png>])
+(Chapters/CTLE_parts/passive.tex
+Underfull \hbox (badness 10000) in paragraph at lines 40--1
+
+ []
+
+<CTLE Chapter img/passive CTLE.png, id=825, 245.41687pt x 212.29312pt>
+File: CTLE Chapter img/passive CTLE.png Graphic file (type png)
+<use CTLE Chapter img/passive CTLE.png>
+Package pdftex.def Info: CTLE Chapter img/passive CTLE.png  used on input line 
+7.
+(pdftex.def)             Requested size: 113.39873pt x 98.09332pt.
+<CTLE Chapter img/SD CTLE TF.png, id=826, 393.72093pt x 248.42813pt>
+File: CTLE Chapter img/SD CTLE TF.png Graphic file (type png)
+<use CTLE Chapter img/SD CTLE TF.png>
+Package pdftex.def Info: CTLE Chapter img/SD CTLE TF.png  used on input line 14
+.
+(pdftex.def)             Requested size: 161.9989pt x 102.21631pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./CTLE Chapter img/survey_2.png>] [39 <./CTLE Chapter img/passive CTLE.pn
+g> <./CTLE Chapter img/SD CTLE TF.png>] [40] [41]) (Chapters/CTLE_parts/sd.tex
+Overfull \hbox (1.65341pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10.95 equal-iz-ers that rely solely on frequency-dependent at-ten-
+u-a-tion, the SD CTLE
+ []
+
+
+Overfull \hbox (6.02766pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/n/10.95 ac-tively re-shapes the fre-quency re-sponse by in-tro-duc-i
+ng a \OT1/cmr/m/it/10.95 frequency-dependent
+ []
+
+
+Overfull \hbox (1.96556pt too wide) in paragraph at lines 3--4
+\OT1/cmr/m/it/10.95 source de-gen-er-a-tion impedance\OT1/cmr/m/n/10.95 . This 
+en-ables con-trolled peak-ing, wider equal-
+ []
+
+<CTLE Chapter img/SD CTLE schematic.png, id=853, 438.13687pt x 429.85594pt>
+File: CTLE Chapter img/SD CTLE schematic.png Graphic file (type png)
+<use CTLE Chapter img/SD CTLE schematic.png>
+Package pdftex.def Info: CTLE Chapter img/SD CTLE schematic.png  used on input 
+line 11.
+(pdftex.def)             Requested size: 126.0022pt x 123.6187pt.
+[42 <./CTLE Chapter img/SD CTLE schematic.png>]
+File: CTLE Chapter img/SD CTLE schematic.png Graphic file (type png)
+<use CTLE Chapter img/SD CTLE schematic.png>
+Package pdftex.def Info: CTLE Chapter img/SD CTLE schematic.png  used on input 
+line 26.
+(pdftex.def)             Requested size: 120.95839pt x 118.6666pt.
+<CTLE Chapter img/SD CTLE BEHAV.png, id=861, 337.26pt x 188.95593pt>
+File: CTLE Chapter img/SD CTLE BEHAV.png Graphic file (type png)
+<use CTLE Chapter img/SD CTLE BEHAV.png>
+Package pdftex.def Info: CTLE Chapter img/SD CTLE BEHAV.png  used on input line
+ 33.
+(pdftex.def)             Requested size: 172.79846pt x 96.81602pt.
+
+Underfull \hbox (badness 6775) in paragraph at lines 34--34
+[][]|\OT1/cmr/m/n/10 SD CTLE Fre-quency re-
+ []
+
+[43 <./CTLE Chapter img/SD CTLE BEHAV.png>]
+<CTLE Chapter img/effect of inc RL.png, id=870, 349.305pt x 203.25937pt>
+File: CTLE Chapter img/effect of inc RL.png Graphic file (type png)
+<use CTLE Chapter img/effect of inc RL.png>
+Package pdftex.def Info: CTLE Chapter img/effect of inc RL.png  used on input l
+ine 81.
+(pdftex.def)             Requested size: 198.0011pt x 115.21703pt.
+ [44 <./CTLE Chapter img/effect of inc RL.png>]
+<CTLE Chapter img/effect of inc RS.png, id=879, 581.92406pt x 176.15813pt>
+File: CTLE Chapter img/effect of inc RS.png Graphic file (type png)
+<use CTLE Chapter img/effect of inc RS.png>
+Package pdftex.def Info: CTLE Chapter img/effect of inc RS.png  used on input l
+ine 102.
+(pdftex.def)             Requested size: 288.0011pt x 87.18375pt.
+
+Underfull \vbox (badness 6078) has occurred while \output is active []
+
+ [45 <./CTLE Chapter img/effect of inc RS.png>]
+<CTLE Chapter img/effect of inc CS.png, id=887, 582.67688pt x 187.45032pt>
+File: CTLE Chapter img/effect of inc CS.png Graphic file (type png)
+<use CTLE Chapter img/effect of inc CS.png>
+Package pdftex.def Info: CTLE Chapter img/effect of inc CS.png  used on input l
+ine 133.
+(pdftex.def)             Requested size: 288.0011pt x 92.65231pt.
+
+Underfull \vbox (badness 6364) has occurred while \output is active []
+
+ [46]
+<CTLE Chapter img/effect of inc ibias.png, id=893, 583.42969pt x 188.95593pt>
+File: CTLE Chapter img/effect of inc ibias.png Graphic file (type png)
+<use CTLE Chapter img/effect of inc ibias.png>
+Package pdftex.def Info: CTLE Chapter img/effect of inc ibias.png  used on inpu
+t line 164.
+(pdftex.def)             Requested size: 288.0011pt x 93.2783pt.
+
+[47 <./CTLE Chapter img/effect of inc CS.png>]
+Overfull \hbox (75.35272pt too wide) detected at line 179
+[][]
+ []
+
+
+Overfull \hbox (18.17087pt too wide) in paragraph at lines 195--196
+\OT1/cmr/m/n/10.95 The in-ter-play be-tween the four pri-mary de-sign knobs cre
+-ates a multi-dimensional
+ []
+
+[48 <./CTLE Chapter img/effect of inc ibias.png>]
+Overfull \hbox (14.60828pt too wide) in paragraph at lines 204--204
+[]|\OT1/cmr/bx/n/10.95 Parameter|  
+ []
+
+
+Overfull \hbox (11.9978pt too wide) in paragraph at lines 199--227
+ [][] 
+ []
+
+) (Chapters/CTLE_parts/tp.tex
+<CTLE Chapter img/idea of multipath_mid compensation.png, id=909, 402.00188pt x
+ 258.9675pt>
+File: CTLE Chapter img/idea of multipath_mid compensation.png Graphic file (typ
+e png)
+<use CTLE Chapter img/idea of multipath_mid compensation.png>
+Package pdftex.def Info: CTLE Chapter img/idea of multipath_mid compensation.pn
+g  used on input line 6.
+(pdftex.def)             Requested size: 251.9989pt x 162.33635pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+<CTLE Chapter img/multipath block diagram.png, id=919, 412.54124pt x 182.93344p
+t>
+File: CTLE Chapter img/multipath block diagram.png Graphic file (type png)
+<use CTLE Chapter img/multipath block diagram.png>
+Package pdftex.def Info: CTLE Chapter img/multipath block diagram.png  used on 
+input line 19.
+(pdftex.def)             Requested size: 126.0022pt x 55.87137pt.
+
+[50 <./CTLE Chapter img/idea of multipath_mid compensation.png> <./CTLE Chapter
+ img/multipath block diagram.png>]
+<CTLE Chapter img/multipath schematic.png, id=933, 588.69937pt x 255.95625pt>
+File: CTLE Chapter img/multipath schematic.png Graphic file (type png)
+<use CTLE Chapter img/multipath schematic.png>
+Package pdftex.def Info: CTLE Chapter img/multipath schematic.png  used on inpu
+t line 28.
+(pdftex.def)             Requested size: 233.9978pt x 101.73625pt.
+<CTLE Chapter img/multipath real response.png, id=937, 312.41719pt x 188.95593p
+t>
+File: CTLE Chapter img/multipath real response.png Graphic file (type png)
+<use CTLE Chapter img/multipath real response.png>
+Package pdftex.def Info: CTLE Chapter img/multipath real response.png  used on 
+input line 40.
+(pdftex.def)             Requested size: 143.9978pt x 87.09377pt.
+ [51 <./CTLE Chapter img/multipath schematic.png> <./CTLE Chapter img/multipath
+ real response.png>]
+Overfull \hbox (77.00029pt too wide) detected at line 59
+[][]
+ []
+
+<CTLE Chapter img/multipath effect of Rmul.png, id=947, 270.25969pt x 161.10187
+pt>
+File: CTLE Chapter img/multipath effect of Rmul.png Graphic file (type png)
+<use CTLE Chapter img/multipath effect of Rmul.png>
+Package pdftex.def Info: CTLE Chapter img/multipath effect of Rmul.png  used on
+ input line 77.
+(pdftex.def)             Requested size: 143.9978pt x 85.83835pt.
+[52 <./CTLE Chapter img/multipath effect of Rmul.png>]
+<CTLE Chapter img/multipath effect of Cmul.png, id=957, 279.29344pt x 184.43906
+pt>
+File: CTLE Chapter img/multipath effect of Cmul.png Graphic file (type png)
+<use CTLE Chapter img/multipath effect of Cmul.png>
+Package pdftex.def Info: CTLE Chapter img/multipath effect of Cmul.png  used on
+ input line 95.
+(pdftex.def)             Requested size: 143.9978pt x 95.09552pt.
+<CTLE Chapter img/multipath effect of w.png, id=959, 268.75406pt x 187.45032pt>
+
+File: CTLE Chapter img/multipath effect of w.png Graphic file (type png)
+<use CTLE Chapter img/multipath effect of w.png>
+Package pdftex.def Info: CTLE Chapter img/multipath effect of w.png  used on in
+put line 113.
+(pdftex.def)             Requested size: 143.9978pt x 100.43507pt.
+ [53 <./CTLE Chapter img/multipath effect of Cmul.png>]
+Overfull \hbox (3.80872pt too wide) in paragraph at lines 138--138
+[]|\OT1/cmr/bx/n/10.95 Parameter|  
+ []
+
+
+Overfull \hbox (22.79736pt too wide) in paragraph at lines 133--147
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./CTLE Chapter img/multipath effect of w.png>] [55]) (Chapters/CTLE_parts
+/nc.tex
+<CTLE Chapter img/NC SCHEMATIC.png, id=983, 633.11531pt x 313.17pt>
+File: CTLE Chapter img/NC SCHEMATIC.png Graphic file (type png)
+<use CTLE Chapter img/NC SCHEMATIC.png>
+Package pdftex.def Info: CTLE Chapter img/NC SCHEMATIC.png  used on input line 
+11.
+(pdftex.def)             Requested size: 198.0011pt x 97.93706pt.
+
+Underfull \vbox (badness 1728) has occurred while \output is active []
+
+ [56 <./CTLE Chapter img/NC SCHEMATIC.png>]
+Overfull \hbox (0.58707pt too wide) in paragraph at lines 46--47
+[]\OT1/cmr/m/n/10.95 This par-al-lel com-bi-na-tion has a cru-cial ef-fect: whe
+n a neg-a-tive impedance
+ []
+
+[57]
+<CTLE Chapter img/nc assymptotic response.png, id=996, 365.11406pt x 243.91125p
+t>
+File: CTLE Chapter img/nc assymptotic response.png Graphic file (type png)
+<use CTLE Chapter img/nc assymptotic response.png>
+Package pdftex.def Info: CTLE Chapter img/nc assymptotic response.png  used on 
+input line 62.
+(pdftex.def)             Requested size: 120.95839pt x 80.80359pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[][]|\OT1/cmr/m/n/10 Asymp-totic fre-quency re-
+ []
+
+<CTLE Chapter img/nc real response .png, id=997, 368.87813pt x 225.84375pt>
+File: CTLE Chapter img/nc real response .png Graphic file (type png)
+<use CTLE Chapter img/nc real response .png>
+Package pdftex.def Info: CTLE Chapter img/nc real response .png  used on input 
+line 69.
+(pdftex.def)             Requested size: 120.95839pt x 74.05655pt.
+
+Underfull \hbox (badness 2150) in paragraph at lines 70--70
+[][]|\OT1/cmr/m/n/10 Ac-tual re-sponse in 180nm
+ []
+
+[58 <./CTLE Chapter img/nc assymptotic response.png> <./CTLE Chapter img/nc rea
+l response .png>]
+<CTLE Chapter img/effect of inc.png, id=1010, 291.33844pt x 197.98969pt>
+File: CTLE Chapter img/effect of inc.png Graphic file (type png)
+<use CTLE Chapter img/effect of inc.png>
+Package pdftex.def Info: CTLE Chapter img/effect of inc.png  used on input line
+ 106.
+(pdftex.def)             Requested size: 180.0pt x 122.32938pt.
+ [59 <./CTLE Chapter img/effect of inc.png>] [60]
+<CTLE Chapter img/nc damping factor.png, id=1024, 509.65407pt x 214.55156pt>
+File: CTLE Chapter img/nc damping factor.png Graphic file (type png)
+<use CTLE Chapter img/nc damping factor.png>
+Package pdftex.def Info: CTLE Chapter img/nc damping factor.png  used on input 
+line 151.
+(pdftex.def)             Requested size: 306.0022pt x 128.82358pt.
+ [61 <./CTLE Chapter img/nc damping factor.png>] [62]
+<CTLE Chapter img/pvt variations.png, id=1037, 583.42969pt x 317.68687pt>
+File: CTLE Chapter img/pvt variations.png Graphic file (type png)
+<use CTLE Chapter img/pvt variations.png>
+Package pdftex.def Info: CTLE Chapter img/pvt variations.png  used on input lin
+e 171.
+(pdftex.def)             Requested size: 306.0022pt x 166.62813pt.
+ [63 <./CTLE Chapter img/pvt variations.png>]
+Overfull \hbox (1.3809pt too wide) in paragraph at lines 189--190
+[]\OT1/cmr/m/n/10.95 Consider on-die tem-per-a-ture com-pen-sa-tion or cal-i-br
+a-tion loops in high-
+ []
+
+<CTLE Chapter img/nc eye diagram.png, id=1046, 677.53125pt x 202.50656pt>
+File: CTLE Chapter img/nc eye diagram.png Graphic file (type png)
+<use CTLE Chapter img/nc eye diagram.png>
+Package pdftex.def Info: CTLE Chapter img/nc eye diagram.png  used on input lin
+e 197.
+(pdftex.def)             Requested size: 360.0pt x 107.60295pt.
+[64 <./CTLE Chapter img/nc eye diagram.png>]
+Overfull \hbox (3.80872pt too wide) in paragraph at lines 222--222
+[]|\OT1/cmr/bx/n/10.95 Parameter|  
+ []
+
+
+Overfull \hbox (22.79736pt too wide) in paragraph at lines 217--235
+ [][] 
+ []
+
+) (Chapters/CTLE_parts/pai.tex [65] [66]
+<CTLE Chapter img/passive_ind_assymptotic.png, id=1071, 304.13625pt x 203.25937
+pt>
+File: CTLE Chapter img/passive_ind_assymptotic.png Graphic file (type png)
+<use CTLE Chapter img/passive_ind_assymptotic.png>
+Package pdftex.def Info: CTLE Chapter img/passive_ind_assymptotic.png  used on 
+input line 16.
+(pdftex.def)             Requested size: 161.9989pt x 108.2697pt.
+<CTLE Chapter img/passive_ind schematic.png, id=1072, 324.46219pt x 252.945pt>
+File: CTLE Chapter img/passive_ind schematic.png Graphic file (type png)
+<use CTLE Chapter img/passive_ind schematic.png>
+Package pdftex.def Info: CTLE Chapter img/passive_ind schematic.png  used on in
+put line 23.
+(pdftex.def)             Requested size: 161.9989pt x 126.29465pt.
+ [67 <./CTLE Chapter img/passive_ind_assymptotic.png> <./CTLE Chapter img/passi
+ve_ind schematic.png>]
+Overfull \hbox (2.96938pt too wide) in paragraph at lines 51--52
+[]\OT1/cmr/bx/n/10.95 Limited Tun-abil-ity\OT1/cmr/m/n/10.95 : Min-i-mal post-f
+abrication tun-ing ca-pa-bil-ity com-
+ []
+
+
+Overfull \hbox (5.79135pt too wide) in paragraph at lines 57--58
+\OT1/cmr/m/n/10.95 peaking im-ple-men-ta-tions by re-plac-ing bulky pas-sive in
+-duc-tors with transistor-
+ []
+
+<CTLE Chapter img/active_schematic.png, id=1082, 340.27126pt x 283.81032pt>
+File: CTLE Chapter img/active_schematic.png Graphic file (type png)
+<use CTLE Chapter img/active_schematic.png>
+Package pdftex.def Info: CTLE Chapter img/active_schematic.png  used on input l
+ine 63.
+(pdftex.def)             Requested size: 216.0022pt x 180.16124pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [68]
+[69 <./CTLE Chapter img/active_schematic.png>]
+<CTLE Chapter img/active_assymptotic_and_real.png, id=1097, 541.27219pt x 161.1
+0187pt>
+File: CTLE Chapter img/active_assymptotic_and_real.png Graphic file (type png)
+<use CTLE Chapter img/active_assymptotic_and_real.png>
+Package pdftex.def Info: CTLE Chapter img/active_assymptotic_and_real.png  used
+ on input line 98.
+(pdftex.def)             Requested size: 360.0pt x 107.15106pt.
+ [70 <./CTLE Chapter img/active_assymptotic_and_real.png>]
+<CTLE Chapter img/active pvt.png, id=1106, 561.59813pt x 210.03468pt>
+File: CTLE Chapter img/active pvt.png Graphic file (type png)
+<use CTLE Chapter img/active pvt.png>
+Package pdftex.def Info: CTLE Chapter img/active pvt.png  used on input line 12
+1.
+(pdftex.def)             Requested size: 360.0pt x 134.63646pt.
+ [71 <./CTLE Chapter img/active pvt.png>]
+Overfull \hbox (11.00476pt too wide) in paragraph at lines 147--147
+[]|\OT1/cmr/bx/n/10.95 Parameter|  
+ []
+
+
+Overfull \hbox (51.60352pt too wide) in paragraph at lines 142--158
+ [][] 
+ []
+
+) (Chapters/CTLE_parts/assfb.tex [72]
+<CTLE Chapter img/assfb_block diagram.png, id=1124, 572.1375pt x 168.63pt>
+File: CTLE Chapter img/assfb_block diagram.png Graphic file (type png)
+<use CTLE Chapter img/assfb_block diagram.png>
+Package pdftex.def Info: CTLE Chapter img/assfb_block diagram.png  used on inpu
+t line 11.
+(pdftex.def)             Requested size: 323.9978pt x 95.49483pt.
+<CTLE Chapter img/assfb_schematic.png, id=1126, 581.92406pt x 261.97874pt>
+File: CTLE Chapter img/assfb_schematic.png Graphic file (type png)
+<use CTLE Chapter img/assfb_schematic.png>
+Package pdftex.def Info: CTLE Chapter img/assfb_schematic.png  used on input li
+ne 20.
+(pdftex.def)             Requested size: 288.0011pt x 129.65788pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./CTLE Chapter img/assfb_block diagram.png>]
+<CTLE Chapter img/assfb_assym.png, id=1135, 395.22656pt x 235.63031pt>
+File: CTLE Chapter img/assfb_assym.png Graphic file (type png)
+<use CTLE Chapter img/assfb_assym.png>
+Package pdftex.def Info: CTLE Chapter img/assfb_assym.png  used on input line 3
+4.
+(pdftex.def)             Requested size: 164.158pt x 97.87103pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[][]|\OT1/cmr/m/n/10 Asymp-totic fre-quency re-
+ []
+
+<CTLE Chapter img/assfb_real.png, id=1136, 316.18124pt x 193.47281pt>
+File: CTLE Chapter img/assfb_real.png Graphic file (type png)
+<use CTLE Chapter img/assfb_real.png>
+Package pdftex.def Info: CTLE Chapter img/assfb_real.png  used on input line 41
+.
+(pdftex.def)             Requested size: 164.158pt x 100.44997pt.
+
+Underfull \hbox (badness 2150) in paragraph at lines 42--42
+[][]|\OT1/cmr/m/n/10 Ac-tual re-sponse in 180nm
+ []
+
+[74 <./CTLE Chapter img/assfb_schematic.png> <./CTLE Chapter img/assfb_assym.pn
+g> <./CTLE Chapter img/assfb_real.png>]
+Overfull \hbox (22.81583pt too wide) detected at line 61
+[][]
+ []
+
+<CTLE Chapter img/assfb_effect of w.png, id=1148, 298.11375pt x 210.7875pt>
+File: CTLE Chapter img/assfb_effect of w.png Graphic file (type png)
+<use CTLE Chapter img/assfb_effect of w.png>
+Package pdftex.def Info: CTLE Chapter img/assfb_effect of w.png  used on input 
+line 73.
+(pdftex.def)             Requested size: 143.9978pt x 101.8169pt.
+<CTLE Chapter img/assfb_effect of i bias.png, id=1150, 303.38344pt x 216.05719p
+t>
+File: CTLE Chapter img/assfb_effect of i bias.png Graphic file (type png)
+<use CTLE Chapter img/assfb_effect of i bias.png>
+Package pdftex.def Info: CTLE Chapter img/assfb_effect of i bias.png  used on i
+nput line 91.
+(pdftex.def)             Requested size: 143.9978pt x 102.54909pt.
+[75 <./CTLE Chapter img/assfb_effect of w.png>]
+Overfull \hbox (110.78021pt too wide) detected at line 111
+[][]
+ []
+
+
+Overfull \hbox (11.00476pt too wide) in paragraph at lines 124--124
+[]|\OT1/cmr/bx/n/10.95 Parameter|  
+ []
+
+
+Overfull \hbox (40.80396pt too wide) in paragraph at lines 119--137
+ [][] 
+ []
+
+) (Chapters/CTLE_parts/comp.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76 <./CTLE Chapter img/assfb_effect of i bias.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\OT1/cmr/bx/n/10.95 Passive-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[]|\OT1/cmr/bx/n/10.95 Active-Inductor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/cmr/bx/n/10.95 Multi-Path
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Overfull \vbox (105.06807pt too high) has occurred while \output is active []
+
+
+[79] (Chapters/DFE_parts/arc.tex
+<DFE img/DFE_img_14.png, id=1184, 261.22594pt x 214.55156pt>
+File: DFE img/DFE_img_14.png Graphic file (type png)
+<use DFE img/DFE_img_14.png>
+Package pdftex.def Info: DFE img/DFE_img_14.png  used on input line 15.
+(pdftex.def)             Requested size: 180.0pt x 147.84102pt.
+ [80 <./DFE img/DFE_img_14.png>]
+<DFE img/DFE_img_15.png, id=1193, 192.72pt x 213.04594pt>
+File: DFE img/DFE_img_15.png Graphic file (type png)
+<use DFE img/DFE_img_15.png>
+Package pdftex.def Info: DFE img/DFE_img_15.png  used on input line 34.
+(pdftex.def)             Requested size: 143.9978pt x 159.18265pt.
+<DFE img/DFE_img_16.png, id=1194, 633.86812pt x 438.8897pt>
+File: DFE img/DFE_img_16.png Graphic file (type png)
+<use DFE img/DFE_img_16.png>
+Package pdftex.def Info: DFE img/DFE_img_16.png  used on input line 53.
+(pdftex.def)             Requested size: 216.0022pt x 149.55536pt.
+ [81 <./DFE img/DFE_img_15.png>]
+<DFE img/DFE_img_17.png, id=1203, 415.5525pt x 463.7325pt>
+File: DFE img/DFE_img_17.png Graphic file (type png)
+<use DFE img/DFE_img_17.png>
+Package pdftex.def Info: DFE img/DFE_img_17.png  used on input line 68.
+(pdftex.def)             Requested size: 180.0pt x 200.8658pt.
+<DFE img/DFE_img_18.png, id=1206, 581.17125pt x 255.95625pt>
+File: DFE img/DFE_img_18.png Graphic file (type png)
+<use DFE img/DFE_img_18.png>
+Package pdftex.def Info: DFE img/DFE_img_18.png  used on input line 91.
+(pdftex.def)             Requested size: 251.9989pt x 110.98465pt.
+ [82 <./DFE img/DFE_img_16.png>]
+<DFE img/DFE_img_19.png, id=1217, 359.09157pt x 252.19218pt>
+File: DFE img/DFE_img_19.png Graphic file (type png)
+<use DFE img/DFE_img_19.png>
+Package pdftex.def Info: DFE img/DFE_img_19.png  used on input line 105.
+(pdftex.def)             Requested size: 180.0pt x 126.41902pt.
+ [83 <./DFE img/DFE_img_17.png> <./DFE img/DFE_img_18.png>]
+<DFE img/DFE_img_20.png, id=1232, 420.06938pt x 199.49532pt>
+File: DFE img/DFE_img_20.png Graphic file (type png)
+<use DFE img/DFE_img_20.png>
+Package pdftex.def Info: DFE img/DFE_img_20.png  used on input line 119.
+(pdftex.def)             Requested size: 143.9978pt x 68.38455pt.
+<DFE img/DFE_img_21.png, id=1233, 362.10281pt x 304.13625pt>
+File: DFE img/DFE_img_21.png Graphic file (type png)
+<use DFE img/DFE_img_21.png>
+Package pdftex.def Info: DFE img/DFE_img_21.png  used on input line 125.
+(pdftex.def)             Requested size: 143.9978pt x 120.94695pt.
+<DFE img/DFE_img_12.png, id=1234, 481.04718pt x 356.83313pt>
+File: DFE img/DFE_img_12.png Graphic file (type png)
+<use DFE img/DFE_img_12.png>
+Package pdftex.def Info: DFE img/DFE_img_12.png  used on input line 134.
+(pdftex.def)             Requested size: 161.9989pt x 120.16734pt.
+<DFE img/DFE_img_13.png, id=1235, 248.42813pt x 190.46156pt>
+File: DFE img/DFE_img_13.png Graphic file (type png)
+<use DFE img/DFE_img_13.png>
+Package pdftex.def Info: DFE img/DFE_img_13.png  used on input line 136.
+(pdftex.def)             Requested size: 161.9989pt x 124.19958pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84 <./DFE img/DFE_img_19.png> <./DFE img/DFE_img_20.png>]
+<DFE img/DFE_img_22.png, id=1245, 569.87906pt x 161.85469pt>
+File: DFE img/DFE_img_22.png Graphic file (type png)
+<use DFE img/DFE_img_22.png>
+Package pdftex.def Info: DFE img/DFE_img_22.png  used on input line 148.
+(pdftex.def)             Requested size: 288.0011pt x 81.79646pt.
+ [85 <./DFE img/DFE_img_21.png> <./DFE img/DFE_img_12.png> <./DFE img/DFE_img_1
+3.png>]
+<DFE img/DFE_img_23.png, id=1258, 496.85625pt x 153.57375pt>
+File: DFE img/DFE_img_23.png Graphic file (type png)
+<use DFE img/DFE_img_23.png>
+Package pdftex.def Info: DFE img/DFE_img_23.png  used on input line 163.
+(pdftex.def)             Requested size: 216.0022pt x 66.76419pt.
+<DFE img/DFE_img_24.png, id=1261, 562.35094pt x 184.43906pt>
+File: DFE img/DFE_img_24.png Graphic file (type png)
+<use DFE img/DFE_img_24.png>
+Package pdftex.def Info: DFE img/DFE_img_24.png  used on input line 171.
+(pdftex.def)             Requested size: 216.0022pt x 70.8446pt.
+
+Underfull \vbox (badness 2961) has occurred while \output is active []
+
+ [86 <./DFE img/DFE_img_22.png> <./DFE img/DFE_img_23.png>]
+<DFE img/DFE_img_25.png, id=1274, 400.49625pt x 249.93375pt>
+File: DFE img/DFE_img_25.png Graphic file (type png)
+<use DFE img/DFE_img_25.png>
+Package pdftex.def Info: DFE img/DFE_img_25.png  used on input line 186.
+(pdftex.def)             Requested size: 180.0pt x 112.33185pt.
+)
+(Chapters/DFE_parts/comparators.tex [87 <./DFE img/DFE_img_24.png> <./DFE img/D
+FE_img_25.png>]
+<DFE img/DFE_img_26.png, id=1283, 528.47438pt x 459.96844pt>
+File: DFE img/DFE_img_26.png Graphic file (type png)
+<use DFE img/DFE_img_26.png>
+Package pdftex.def Info: DFE img/DFE_img_26.png  used on input line 10.
+(pdftex.def)             Requested size: 180.0pt x 156.66794pt.
+ [88 <./DFE img/DFE_img_26.png>] [89]
+<DFE img/DFE_img_27.png, id=1299, 413.29407pt x 296.60812pt>
+File: DFE img/DFE_img_27.png Graphic file (type png)
+<use DFE img/DFE_img_27.png>
+Package pdftex.def Info: DFE img/DFE_img_27.png  used on input line 57.
+(pdftex.def)             Requested size: 180.0pt x 129.18188pt.
+<DFE img/DFE_img_28.png, id=1300, 391.4625pt x 376.40625pt>
+File: DFE img/DFE_img_28.png Graphic file (type png)
+<use DFE img/DFE_img_28.png>
+Package pdftex.def Info: DFE img/DFE_img_28.png  used on input line 89.
+(pdftex.def)             Requested size: 155.51755pt x 149.53748pt.
+ [90 <./DFE img/DFE_img_27.png>]
+<DFE img/DFE_img_29.png, id=1310, 315.42844pt x 225.09094pt>
+File: DFE img/DFE_img_29.png Graphic file (type png)
+<use DFE img/DFE_img_29.png>
+Package pdftex.def Info: DFE img/DFE_img_29.png  used on input line 98.
+(pdftex.def)             Requested size: 143.9978pt x 102.75655pt.
+
+Overfull \hbox (1.03789pt too wide) in paragraph at lines 107--108
+\OT1/cmr/m/n/10.95 To mit-i-gate the lim-i-ta-tions of the Strong-Arm latch, th
+e \OT1/cmr/bx/n/10.95 Double-Tail Latch
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91 <./DFE img/DFE_img_28.png> <./DFE img/DFE_img_29.png>]
+<DFE img/DFE_img_30.png, id=1318, 283.0575pt x 478.78876pt>
+File: DFE img/DFE_img_30.png Graphic file (type png)
+<use DFE img/DFE_img_30.png>
+Package pdftex.def Info: DFE img/DFE_img_30.png  used on input line 119.
+(pdftex.def)             Requested size: 126.0022pt x 213.12973pt.
+ [92]
+<DFE img/DFE_img_31.png, id=1324, 375.65344pt x 329.73187pt>
+File: DFE img/DFE_img_31.png Graphic file (type png)
+<use DFE img/DFE_img_31.png>
+Package pdftex.def Info: DFE img/DFE_img_31.png  used on input line 147.
+(pdftex.def)             Requested size: 143.9978pt x 126.39622pt.
+
+Underfull \vbox (badness 1590) has occurred while \output is active []
+
+ [93 <./DFE img/DFE_img_30.png>]
+Overfull \hbox (4.20152pt too wide) in paragraph at lines 155--156
+[]\OT1/cmr/bx/n/10.95 Bandwidth: \OT1/cmr/m/n/10.95 Strong-Arm latches gen-er-a
+lly have higher sam-pling band-
+ []
+
+<DFE img/DFE_img_32.png, id=1334, 244.66406pt x 225.09094pt>
+File: DFE img/DFE_img_32.png Graphic file (type png)
+<use DFE img/DFE_img_32.png>
+Package pdftex.def Info: DFE img/DFE_img_32.png  used on input line 174.
+(pdftex.def)             Requested size: 90.0pt x 82.80148pt.
+[94 <./DFE img/DFE_img_31.png>]
+<DFE img/DFE_img_33.png, id=1341, 299.61937pt x 402.00188pt>
+File: DFE img/DFE_img_33.png Graphic file (type png)
+<use DFE img/DFE_img_33.png>
+Package pdftex.def Info: DFE img/DFE_img_33.png  used on input line 201.
+(pdftex.def)             Requested size: 126.0022pt x 169.05432pt.
+ [95 <./DFE img/DFE_img_32.png>]
+<DFE img/DFE_img_34.png, id=1353, 427.5975pt x 150.5625pt>
+File: DFE img/DFE_img_34.png Graphic file (type png)
+<use DFE img/DFE_img_34.png>
+Package pdftex.def Info: DFE img/DFE_img_34.png  used on input line 217.
+(pdftex.def)             Requested size: 216.0022pt x 76.05757pt.
+
+Underfull \vbox (badness 3271) has occurred while \output is active []
+
+ [96 <./DFE img/DFE_img_33.png>]
+<DFE img/DFE_img_35.png, id=1362, 615.80063pt x 420.82219pt>
+File: DFE img/DFE_img_35.png Graphic file (type png)
+<use DFE img/DFE_img_35.png>
+Package pdftex.def Info: DFE img/DFE_img_35.png  used on input line 230.
+(pdftex.def)             Requested size: 172.79846pt x 118.08624pt.
+<DFE img/DFE_img_36.png, id=1363, 520.19344pt x 286.06876pt>
+File: DFE img/DFE_img_36.png Graphic file (type png)
+<use DFE img/DFE_img_36.png>
+Package pdftex.def Info: DFE img/DFE_img_36.png  used on input line 235.
+(pdftex.def)             Requested size: 172.79846pt x 95.02718pt.
+) (Chapters/DFE_parts/papers.tex [97 <./DFE img/DFE_img_34.png> <./DFE img/DFE_
+img_35.png> <./DFE img/DFE_img_36.png>]
+<DFE img/DFE_img_43.png, id=1377, 616.55344pt x 440.39531pt>
+File: DFE img/DFE_img_43.png Graphic file (type png)
+<use DFE img/DFE_img_43.png>
+Package pdftex.def Info: DFE img/DFE_img_43.png  used on input line 11.
+(pdftex.def)             Requested size: 172.79846pt x 123.42407pt.
+<DFE img/DFE_img_44.png, id=1378, 657.95813pt x 362.85562pt>
+File: DFE img/DFE_img_44.png Graphic file (type png)
+<use DFE img/DFE_img_44.png>
+Package pdftex.def Info: DFE img/DFE_img_44.png  used on input line 19.
+(pdftex.def)             Requested size: 172.79846pt x 95.29254pt.
+<DFE img/DFE_img_45.png, id=1379, 724.20563pt x 450.18187pt>
+File: DFE img/DFE_img_45.png Graphic file (type png)
+<use DFE img/DFE_img_45.png>
+Package pdftex.def Info: DFE img/DFE_img_45.png  used on input line 33.
+(pdftex.def)             Requested size: 198.0011pt x 123.07568pt.
+ [98 <./DFE img/DFE_img_43.png> <./DFE img/DFE_img_44.png>]
+<DFE img/DFE_img_46.png, id=1388, 457.71pt x 339.51843pt>
+File: DFE img/DFE_img_46.png Graphic file (type png)
+<use DFE img/DFE_img_46.png>
+Package pdftex.def Info: DFE img/DFE_img_46.png  used on input line 79.
+(pdftex.def)             Requested size: 180.0pt x 133.5203pt.
+<DFE img/DFE_img_47.png, id=1390, 934.99312pt x 405.76593pt>
+File: DFE img/DFE_img_47.png Graphic file (type png)
+<use DFE img/DFE_img_47.png>
+Package pdftex.def Info: DFE img/DFE_img_47.png  used on input line 89.
+(pdftex.def)             Requested size: 360.0pt x 156.22964pt.
+ [99 <./DFE img/DFE_img_45.png>]
+<DFE img/DFE_img_48.png, id=1399, 612.03656pt x 247.67531pt>
+File: DFE img/DFE_img_48.png Graphic file (type png)
+<use DFE img/DFE_img_48.png>
+Package pdftex.def Info: DFE img/DFE_img_48.png  used on input line 97.
+(pdftex.def)             Requested size: 108.0011pt x 43.70285pt.
+<DFE img/DFE_img_49.png, id=1400, 303.38344pt x 257.46187pt>
+File: DFE img/DFE_img_49.png Graphic file (type png)
+<use DFE img/DFE_img_49.png>
+Package pdftex.def Info: DFE img/DFE_img_49.png  used on input line 104.
+(pdftex.def)             Requested size: 126.0022pt x 106.9311pt.
+<DFE img/DFE_img_50.png, id=1401, 292.84406pt x 244.66406pt>
+File: DFE img/DFE_img_50.png Graphic file (type png)
+<use DFE img/DFE_img_50.png>
+Package pdftex.def Info: DFE img/DFE_img_50.png  used on input line 106.
+(pdftex.def)             Requested size: 126.0022pt x 105.27069pt.
+<DFE img/DFE_img_51.png, id=1402, 379.4175pt x 410.2828pt>
+File: DFE img/DFE_img_51.png Graphic file (type png)
+<use DFE img/DFE_img_51.png>
+Package pdftex.def Info: DFE img/DFE_img_51.png  used on input line 155.
+(pdftex.def)             Requested size: 125.99945pt x 136.24515pt.
+<DFE img/DFE_img_52.png, id=1403, 279.29344pt x 347.04657pt>
+File: DFE img/DFE_img_52.png Graphic file (type png)
+<use DFE img/DFE_img_52.png>
+Package pdftex.def Info: DFE img/DFE_img_52.png  used on input line 165.
+(pdftex.def)             Requested size: 112.31793pt x 139.56282pt.
+<DFE img/DFE_img_53.png, id=1404, 297.36093pt x 350.05782pt>
+File: DFE img/DFE_img_53.png Graphic file (type png)
+<use DFE img/DFE_img_53.png>
+Package pdftex.def Info: DFE img/DFE_img_53.png  used on input line 172.
+(pdftex.def)             Requested size: 112.31793pt x 132.22212pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
+Overfull \vbox (208.75525pt too high) has occurred while \output is active []
+
+
+[101 <./DFE img/DFE_img_46.png> <./DFE img/DFE_img_47.png> <./DFE img/DFE_img_5
+1.png> <./DFE img/DFE_img_52.png> <./DFE img/DFE_img_53.png>]
+<DFE img/DFE_img_54.png, id=1422, 465.23813pt x 320.69812pt>
+File: DFE img/DFE_img_54.png Graphic file (type png)
+<use DFE img/DFE_img_54.png>
+Package pdftex.def Info: DFE img/DFE_img_54.png  used on input line 207.
+(pdftex.def)             Requested size: 143.9978pt x 99.25879pt.
+<DFE img/DFE_img_55.png, id=1423, 616.55344pt x 457.71pt>
+File: DFE img/DFE_img_55.png Graphic file (type png)
+<use DFE img/DFE_img_55.png>
+Package pdftex.def Info: DFE img/DFE_img_55.png  used on input line 230.
+(pdftex.def)             Requested size: 198.0011pt x 146.98701pt.
+
+Overfull \hbox (42.3043pt too wide) in paragraph at lines 236--251
+ [][] 
+ []
+
+[102 <./DFE img/DFE_img_48.png> <./DFE img/DFE_img_49.png> <./DFE img/DFE_img_5
+0.png>]
+<DFE img/DFE_img_56.png, id=1435, 544.28343pt x 374.14781pt>
+File: DFE img/DFE_img_56.png Graphic file (type png)
+<use DFE img/DFE_img_56.png>
+Package pdftex.def Info: DFE img/DFE_img_56.png  used on input line 265.
+(pdftex.def)             Requested size: 138.23929pt x 95.02676pt.
+<DFE img/DFE_img_57.png, id=1436, 682.80093pt x 338.76563pt>
+File: DFE img/DFE_img_57.png Graphic file (type png)
+<use DFE img/DFE_img_57.png>
+Package pdftex.def Info: DFE img/DFE_img_57.png  used on input line 273.
+(pdftex.def)             Requested size: 138.23929pt x 68.58415pt.
+
+Underfull \hbox (badness 3525) in paragraph at lines 274--274
+[][]|\OT1/cmr/m/n/10 Schematic of the common-mode
+ []
+
+<DFE img/DFE_img_58.png, id=1437, 265.74281pt x 315.42844pt>
+File: DFE img/DFE_img_58.png Graphic file (type png)
+<use DFE img/DFE_img_58.png>
+Package pdftex.def Info: DFE img/DFE_img_58.png  used on input line 284.
+(pdftex.def)             Requested size: 143.9978pt x 170.92563pt.
+)) [103] [104 <./DFE img/DFE_img_54.png> <./DFE img/DFE_img_55.png>] [105 <./DF
+E img/DFE_img_56.png> <./DFE img/DFE_img_57.png> <./DFE img/DFE_img_58.png>]
+[106] (main.bbl [107
+
+
+
+
+] [108] [109]
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+[]\OT1/cmr/m/n/10.95 ``Introduction to pcie and cxl,'' Scribd, 2026, [On-line].
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+\OT1/cmr/m/n/10.95 Avail-able: [][]$https : / / www . scribd . com / document /
+ 866301752 /
+ []
+
+) [110] (main.aux (Chapters/Chapter1.aux) (Chapters/Chapter2.aux)
+(Chapters/Chapter3.aux))
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-05-26>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B2935585BE89A4D9DE0EBD51FB8D2C55;16897.
+ ) 
+Here is how much of TeX's memory you used:
+ 16677 strings out of 467509
+ 283346 string characters out of 5418889
+ 690098 words of memory out of 5000000
+ 45166 multiletter control sequences out of 15000+600000
+ 637451 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,17n,86p,911b,677s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\hesha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
+1095.pk> <C:\Users\hesha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsl8.pfb><C:/Program Files/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb>
+Output written on main.pdf (118 pages, 9124812 bytes).
+PDF statistics:
+ 1698 PDF objects out of 1728 (max. 8388607)
+ 460 named destinations out of 1000 (max. 500000)
+ 1244 words of extra memory for PDF output out of 10000 (max. 10000000)
+

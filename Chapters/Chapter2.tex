@@ -51,11 +51,11 @@ The primary advantage of PAM-4 is the reduction in symbol rate. For a target bit
 \end{figure}
 
 \begin{equation}
-    Rs_{PAM4} = \frac{1}{2} \times Rs_{NRZ} \tag{2.1}
+    Rs_{PAM4} = \frac{1}{2} \times Rs_{NRZ}
 \end{equation}
 
 \begin{equation}
-    BW_{PAM4} = \frac{1}{2} \times BW_{NRZ} \tag{2.2}
+    BW_{PAM4} = \frac{1}{2} \times BW_{NRZ}
 \end{equation}
 
 This allows the system to operate at a frequency where channel loss is significantly lower.
@@ -71,7 +71,7 @@ Because PAM-4 must fit four levels into the same voltage swing limits as NRZ, th
 \end{figure}
 
 \begin{equation}
-    Eye\ Height\ Loss = 20 \times \log_{10}{\left(\frac{1}{3}\right)} \approx -9.54\ dB \tag{2.3}
+    Eye\ Height\ Loss = 20 \times \log_{10}{\left(\frac{1}{3}\right)} \approx -9.54\ dB
 \end{equation}
 
 This 9.54 dB penalty makes PAM-4 highly sensitive to noise, crosstalk, and residual ISI.
@@ -79,17 +79,17 @@ This 9.54 dB penalty makes PAM-4 highly sensitive to noise, crosstalk, and resid
 For SNR loss:
 
 \begin{equation}
-    P_{avg - NRZ} = 1 ,\ P_{avg - PAM4} = \frac{(1)^2 + \left( \frac{1}{3} \right)^2 + \left( - \frac{1}{3} \right)^2 + ( - 1)^2}{4} = \frac{5}{9} \tag{2.4}
+    P_{avg - NRZ} = 1 ,\ P_{avg - PAM4} = \frac{(1)^2 + \left( \frac{1}{3} \right)^2 + \left( - \frac{1}{3} \right)^2 + ( - 1)^2}{4} = \frac{5}{9}
 \end{equation}
 
 To maintain the same transmit power, the PAM-4 amplitude must be boosted, or NRZ reduced.
 
 \begin{equation}
-    Amp\ (NRZ) = \sqrt{\frac{5}{9}} = 0.745 \tag{2.5}
+    Amp\ (NRZ) = \sqrt{\frac{5}{9}} = 0.745
 \end{equation}
 
 \begin{equation}
-    SNR\ loss\ = 20 \times \log\left(\frac{(1/3)}{0.745}\right) \sim 7\ dB \tag{2.6}
+    SNR\ loss\ = 20 \times \log\left(\frac{(1/3)}{0.745}\right) \sim 7\ dB
 \end{equation}
 
 The effective SNR loss, accounting for practical non-linearities, is typically greater than 11 dB.
@@ -98,7 +98,7 @@ The effective SNR loss, accounting for practical non-linearities, is typically g
 The choice of modulation depends on the slope of the channel insertion loss. PAM-4 is advantageous only if the reduction in channel loss at the lower Nyquist frequency outweighs the inherent SNR penalty.
 
 \begin{equation}
-    Loss(f_{Nyquist–NRZ}) - Loss(f_{Nyquist - PAM4}) > 11\ dB \tag{2.7}
+    Loss\!\left(f_{\text{Nyquist-NRZ}}\right) - Loss\!\left(f_{\text{Nyquist-PAM4}}\right) > 11\ dB
 \end{equation}
 
 \subsection{PAM4 Linearity Considerations}
@@ -109,11 +109,11 @@ PAM4 eye linearity is critical for low BER.
 - Resulting relative level mismatch (RLM)
 
 \begin{equation}
-    S_{\min} = \min{(V_3 - V_2 , V_2 - V_1 , V_1 - V_0)} \tag{2.8}
+    S_{\min} = \min{(V_3 - V_2 , V_2 - V_1 , V_1 - V_0)}
 \end{equation}
 
 \begin{equation}
-    RLM = \frac{3 \times S_{\min}}{V_3 - V_0} \tag{2.9}
+    RLM = \frac{3 \times S_{\min}}{V_3 - V_0}
 \end{equation}
 
 \begin{figure}[H]
@@ -139,7 +139,7 @@ PAM4 eye linearity is critical for low BER.
 The input network is the critical interface between the harsh environment of the transmission channel and the sensitive silicon die. Its primary responsibilities are twofold: providing precise impedance matching to minimize signal reflections and extending the receiver's bandwidth beyond the intrinsic limits of the ESD pads.
 
 \subsection{Transmission Line Behavior}
-In modern high-speed serial links like PCIe 6.0, the signal transition times ($t_{rise}$) are significantly shorter than the time of flight ($t_{flight}$) across the channel, as given by \eqref{transmission_line_condition}.
+In modern high-speed serial links like PCIe 6.0, the signal transition times ($t_{rise}$) are significantly shorter than the time of flight ($t_{flight}$) across the channel, as given by \eqref{eq:transmission_line_condition}.
 \begin{equation} \label{eq:transmission_line_condition}
     t_{rise} \ll t_{flight}
 \end{equation}

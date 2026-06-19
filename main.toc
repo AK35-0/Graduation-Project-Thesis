@@ -1,0 +1,109 @@
+\contentsline {chapter}{Abstract}{iii}{section*.2}%
+\contentsline {chapter}{\numberline {1.}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}PCIe Standard Overview}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Historical Evolution: From Parallel to Serial}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}The Legacy of Parallel PCI}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}The Shift to Serial PCIe}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Evolution of PCIe}{2}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Protocol Architecture}{3}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}PCIe 6.0 Innovations}{4}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}PAM4 Signaling}{4}{subsection.1.1.7}%
+\contentsline {subsubsection}{FLIT Encoding (Flow Control Unit)}{4}{section*.8}%
+\contentsline {subsubsection}{Forward Error Correction (FEC) and CRC}{5}{section*.10}%
+\contentsline {section}{\numberline {1.2}Thesis Organization}{6}{section.1.2}%
+\contentsline {chapter}{\numberline {2.}System Overview and Theoretical Foundation}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Modulation Schemes (NRZ and PAM-4)}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Non-Return-to-Zero (NRZ)}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Pulse Amplitude Modulation (PAM-4)}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Comparative Analysis}{8}{subsection.2.1.3}%
+\contentsline {subsubsection}{Bandwidth Reduction}{9}{section*.15}%
+\contentsline {subsubsection}{SNR and Eye Height Penalty}{9}{section*.17}%
+\contentsline {subsubsection}{Decision Criteria}{11}{section*.19}%
+\contentsline {subsection}{\numberline {2.1.4}PAM4 Linearity Considerations}{11}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}Input Network: Termination Fundamentals}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Transmission Line Behavior}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Reflections}{12}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Transient Reflection Patterns}{13}{subsection.2.2.3}%
+\contentsline {subsubsection}{Case A: The Staircase Effect (Under-Driven, $Z_S \gg Z_0$)}{13}{section*.21}%
+\contentsline {subsubsection}{Case B: Ringing and Overshoot (Over-Driven, $Z_S \ll Z_0$)}{14}{section*.23}%
+\contentsline {section}{\numberline {2.3}Variable Gain Amplifier (VGA)}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Continuous-Time Linear Equalizer (CTLE)}{16}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Concept of Operation of the CTLE}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Frequency-Domain Interpretation}{18}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Time-Domain Interpretation}{18}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Design Trade-offs}{20}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Decision Feedback Equalization (DFE)}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Operational Principle}{20}{subsection.2.5.1}%
+\contentsline {subsubsection}{Advantages and Disadvantages}{21}{section*.32}%
+\contentsline {subsection}{\numberline {2.5.2}Critical Timing Constraints}{22}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}DFE Adaptation Algorithms}{22}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Sign-Sign LMS Algorithm}{22}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.7}Characteristics for Comparators}{23}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Input referred noise}{23}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}ISF (Impulse Sensitivity Function)}{24}{subsection.2.7.2}%
+\contentsline {section}{\numberline {2.8}Metastability}{26}{section.2.8}%
+\contentsline {chapter}{\numberline {3.}Literature Survey and Architecture Selection}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Input Network: Bandwidth Extension Techniques}{29}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Shunt Peaking}{29}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Bridged Shunt Peaking}{30}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Series Peaking}{30}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Bridged Shunt-Series Peaking}{30}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}T-Coil Extension}{31}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Comparison of Techniques}{32}{subsection.3.1.6}%
+\contentsline {section}{\numberline {3.2}Survey of Gain Control Topologies}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Topology 1: Passive Attenuation}{34}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Topology 2: Active Analog Control}{34}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Topology 3: Active Digital Control (Source Degeneration)}{35}{subsection.3.2.3}%
+\contentsline {subsubsection}{Digital Implementation}{35}{section*.46}%
+\contentsline {subsubsection}{Hybrid Split-Termination}{36}{section*.48}%
+\contentsline {section}{\numberline {3.3}CTLE Architectures}{37}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Statistical Study of CTLE Literature}{37}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Passive CTLE}{39}{subsection.3.3.2}%
+\contentsline {subsubsection}{Frequency Response Characteristics}{40}{section*.54}%
+\contentsline {subsubsection}{Design Trade-offs}{40}{section*.55}%
+\contentsline {subsection}{\numberline {3.3.3}Source-Degenerated (SD) CTLE}{42}{subsection.3.3.3}%
+\contentsline {subsubsection}{Small-Signal Transfer Function}{43}{section*.58}%
+\contentsline {subsubsection}{Design Knobs and Tunability}{44}{section*.60}%
+\contentsline {subsubsection}{Design Trade-offs for the SD CTLE}{49}{section*.69}%
+\contentsline {subsection}{\numberline {3.3.4}Multi-Path (Two-Path) CTLE}{50}{subsection.3.3.4}%
+\contentsline {subsubsection}{Frequency Response Analysis}{51}{section*.75}%
+\contentsline {subsubsection}{Design Knobs and Tunability}{52}{section*.77}%
+\contentsline {subsubsection}{Design Trade-offs}{55}{section*.84}%
+\contentsline {subsection}{\numberline {3.3.5}Negative-Capacitance (NC) CTLE}{56}{subsection.3.3.5}%
+\contentsline {subsubsection}{Enhanced Frequency Response Analysis}{58}{section*.89}%
+\contentsline {subsubsection}{Design Knobs and Tunability}{59}{section*.91}%
+\contentsline {subsubsection}{Design Trade-offs and Guidelines}{65}{section*.100}%
+\contentsline {subsection}{\numberline {3.3.6}Passive and Active Inductor CTLE}{65}{subsection.3.3.6}%
+\contentsline {subsubsection}{Passive Shunt-Peaking CTLE}{67}{section*.102}%
+\contentsline {subsubsection}{Active Inductor CTLE}{68}{section*.105}%
+\contentsline {subsection}{\numberline {3.3.7}Active Shunt-Shunt Feedback (ASSFB) CTLE}{73}{subsection.3.3.7}%
+\contentsline {subsubsection}{Frequency Response Analysis}{74}{section*.118}%
+\contentsline {subsubsection}{Design Knobs and Tunability}{75}{section*.120}%
+\contentsline {subsubsection}{Design Trade-offs and Guidelines}{77}{section*.125}%
+\contentsline {subsection}{\numberline {3.3.8}Performance Comparison of CTLE Architectures}{79}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}DFE Architectures and Implementation}{80}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Full Rate DFE}{80}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Unrolled Full Rate DFE}{80}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Half Rate DFE}{81}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Half Rate Loop-Unrolled DFE}{81}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Multiplexed Half Rate DFE}{82}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Half Rate Loop-Unrolled Multiplexed DFE}{83}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Quarter-Rate DFE}{84}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}DFE IIR Equalization}{84}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.9}DFE Summing Node Design}{85}{subsection.3.4.9}%
+\contentsline {subsubsection}{Resistive-Load Summer}{85}{section*.138}%
+\contentsline {subsubsection}{Integrating Summer}{86}{section*.140}%
+\contentsline {subsection}{\numberline {3.4.10}PAM4 DFE}{87}{subsection.3.4.10}%
+\contentsline {section}{\numberline {3.5}Comparator Design and Analysis}{87}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Two-Stage OTA Comparator}{88}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}The Strong-Arm Latch}{88}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}The Double-Tail Latch}{92}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}CML Latch}{93}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Comparison: SA vs. CML}{94}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}SR Latch}{94}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Offset Cancellation}{96}{subsection.3.5.7}%
+\contentsline {section}{\numberline {3.6}Survey of Recent DFE Implementations}{97}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}56-Gb/s PAM-4 DFE (Ken Chang et al., JSSC 2017)}{97}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Energy Efficient Integrated Summer and Latch-Based DFE (ISL) With Reduced Tap Loading (Nijwm Wary et al., JSSC 2024)}{99}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}A 60-Gb/s PAM4 Wireline Receiver With 2-Tap DFE Employing Track-and-Regenerate Slicer (Azita Emami et al., JSSC 2020)}{100}{subsection.3.6.3}%
+\contentsline {chapter}{References}{107}{section*.178}%

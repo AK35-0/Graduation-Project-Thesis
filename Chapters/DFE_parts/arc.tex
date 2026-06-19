@@ -10,7 +10,7 @@
     t_{cq,FF} + t_{FB} + t_{setup,FF} < UI
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_14.png}
     \caption{Full Rate DFE}
@@ -29,7 +29,7 @@
 
 Although it relaxes the timing constrain of first loop
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_15.png}
     \caption{Unrolled Full Rate DFE}
@@ -48,7 +48,7 @@ Although it relaxes the timing constrain of first loop
 
 The timing here is the same as the timing Full rate DFE. The principal advantage of this architecture is the simpler design of the CDR circuit, the clock buffer and the flip flops.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{DFE img/DFE_img_16.png}
     \caption{Half-Rate DFE}
@@ -63,7 +63,7 @@ The timing here is the same as the timing Full rate DFE. The principal advantage
     \item Condition of critical timing path.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_17.png}
     \caption{Half Rate Loop-Unrolled DFE \cite{park2007}}
@@ -86,7 +86,7 @@ The timing here is the same as the timing Full rate DFE. The principal advantage
     t_{cq,FF} + t_{FB} + t_{mux} + t_{setup,FF} < UI 
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.7\textwidth]{DFE img/DFE_img_18.png}
     \caption{Multiplexed Half Rate DFE \cite{payne2005}}
@@ -100,7 +100,7 @@ The timing here is the same as the timing Full rate DFE. The principal advantage
     \item Condition of critical timing path.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_19.png}
     \caption{Half Rate Loop-Unrolled Multiplexed DFE \cite{ibrahim2010}}
@@ -114,13 +114,13 @@ The timing here is the same as the timing Full rate DFE. The principal advantage
 \subsection{Quarter-Rate DFE}
 For extremely high speeds, a Quarter-Rate architecture uses four parallel paths driven by quadrature clocks (0, 90, 180, 270 degrees). But at the cost of much larger area and power.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_20.png}
     \caption{(a) Quarter-Rate DFE}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_21.png}
     \caption{Quarter phase CLK}
@@ -143,7 +143,7 @@ The summer circuit is responsible for subtracting the ISI currents from the inpu
 \subsubsection{Resistive-Load Summer}
 The conventional summer uses a differential pair with resistive loads. The settling behavior is exponential. A trade-off exists: to decrease the time constant ($\tau = RC$), R must be reduced. However, to maintain the voltage swing ($V = IR$), the bias current I must increase proportionally. This results in high power consumption for high-speed designs.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.8\textwidth]{DFE img/DFE_img_22.png}
     \caption{Resistive-Load Summer \cite{park2007}}
@@ -158,7 +158,7 @@ Diff output voltage:
     \Delta V = I \times \frac{\Delta T}{C}
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{DFE img/DFE_img_23.png}
     \caption{Integrating Summer \cite{park2007}}
@@ -166,7 +166,7 @@ Diff output voltage:
 
 Since $\frac{\Delta T}{C} > R$, bias current can be reduced for a given output swing. These integrators consume over an order of magnitude less power than the resistively loaded summers. Integrating summers provide linear settling, which is faster than exponential settling for the same power budget. However, the output common-mode voltage can't be controlled because of I/C ratio variation with process and also counting on parasitic caps or operating at different data rate, which requires Common-Mode Restoration circuit, to prevent the output common-mode voltage from drifting.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{DFE img/DFE_img_24.png}
     \caption{Common-mode restoration circuit \cite{park2007}}
@@ -181,7 +181,7 @@ PAM-4 DFE requires 3 slicers to compare as the symbol contains 2 bits (4 levels)
     \item Requires thermometer to binary to select the required input from MUX
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_25.png}
     \caption{(left) Half Rate PAM4 DFE (right) Half Rate Loop-Unrolled PAM4 DFE chen2020}

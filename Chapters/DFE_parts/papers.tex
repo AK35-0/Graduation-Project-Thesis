@@ -28,13 +28,13 @@ As shown in Figure 7.1 this implementation utilizes a Half-Rate architecture in 
 
 Using Strong-Arm (SA) followed by inverter amplifier. When CLK=0, both outputs of the h1 outputs are pre-charged to supply. This helps maintaining the tail node of the h1 CML tap cell and speeds up h1 settling. When CLK=1, sampling phase occurs in SA causing dip in the common mode voltage. The delay by 2 inverters in the inverter amplifier prevents dip in the output common mode voltage of SA affecting settling time of h1 tap output. h1 tap is taken directly after Master latch.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.55\textwidth]{DFE img/DFE_img_45.png}
     \caption{Delayed pre-charge release of slicer h1 amp. (a) h1 tap current, (b) h1 CML tap tail node, (c) h1 amp output, and (d) slicer sampling clock edges for current (solid line) and the next (dashed line) symbols. Y-axes are in the unit of volts, except (a) which is in mA.}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|}
         \hline
@@ -74,7 +74,7 @@ Using Strong-Arm (SA) followed by inverter amplifier. When CLK=0, both outputs o
 \subsection{Energy Efficient Integrated Summer and Latch-Based DFE (ISL) With Reduced Tap Loading (Nijwm Wary et al., JSSC 2024)}
 As shown in Figure \ref{halfrate_proposed} this work proposes merging the summer and the latch into a single cell to make the summer node works in parallel with Latch to relax the timing constrain of first loop. The need of the additional transconductance cell is eliminated by combining the summer and the latch (reducing power consumption). Input of first tap is taken directly after Latch not after SR Latch reducing the loop delay. The proposed half-rate DFE receiver with two taps has been implemented and fabricated in 65 nm CMOS technology. It has been measured at a data rate of 4 Gb/s for a FR4 channel having a loss of 18 dB at Nyquist frequency. The total power consumption of the receiver is 0.938 mW with an energy efficiency of 0.23 pJ/b for a BER < 10-12. The core occupies an area of 993.7 $\mu m^2$.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_46.png}
     \caption{Proposed Half-Rate DFE}
@@ -84,7 +84,7 @@ As shown in Figure \ref{halfrate_proposed} this work proposes merging the summer
 As shown in Fig \ref{fig:summer_latch_timing}, the difference between conventional and proposed ISL is moving away summer node from sensitive node to less sensitive one which reduces the delay. The other advantage of the proposed DFE is that the power consumption of the first stage of the DTL does not increase with increase in number of taps as the node capacitance at A and B remain unchanged with increase in the number of taps.
 
 fix this too
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{DFE img/DFE_img_47.png}
     \centerline{(a)\hspace{5cm} (b)}
@@ -92,14 +92,14 @@ fix this too
     \label{fig:summer_latch_timing}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.3\textwidth]{DFE img/DFE_img_48.png}
     \caption{Timing Diagram}
     \label{fig:timing diagram}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.35\textwidth]{DFE img/DFE_img_49.png}
     \hfill
@@ -108,7 +108,7 @@ fix this too
     \caption{Comparison of variation of delay and power with $C_{TAP}$. (a) Change in delay $\Delta T_d$ (b) Power due to $I_{T1}$.}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|}
         \hline
@@ -186,7 +186,7 @@ Instead of the differential output signal grows from approximately zero, it begi
     \item Less sensitive to VDD variations.
 \end{itemize}
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|l|}
         \hline
@@ -202,14 +202,14 @@ Instead of the differential output signal grows from approximately zero, it begi
 
 As shown in Fig \ref{timing first tap}, since the operations take place concurrently, $T_{dh1}\ and\ T_{settle}$ are additional delay with respect to $T_{cq}$ during which the DFE tap currents and the summer have already started to settle toward their steady states.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_54.png}
     \caption{Timing diagram for the first tap DFE in a half-rate design, and the simulated numbers for the timing constraints at 30 GBaud/s}
     \label{timing first tap}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|l|l|}
         \hline
@@ -225,13 +225,13 @@ As shown in Fig \ref{timing first tap}, since the operations take place concurre
     \caption{Timing Constraints for Weak Symbols}
 \end{table}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.55\textwidth]{DFE img/DFE_img_55.png}
     \caption{Measured Differential Input Sensitivity at worst case}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \begin{tabular}{|l|l|l|}
         \hline
@@ -286,7 +286,7 @@ Since input common mode voltage variations affect the delay of the Latch it is i
 \end{figure}
 
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \renewcommand{\arraystretch}{1} % Slightly more space
     \begin{tabular}{ll} % No vertical bars |

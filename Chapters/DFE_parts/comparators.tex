@@ -5,7 +5,7 @@ The comparator circuit is the location where the digital decision is made. It de
 \subsection{Two-Stage OTA Comparator}
 As shown in Figure 5.1, the comparator is based on two stage 5T OTA with high gain or high slope between input and output. So, if $Vin + > Vin -$ the output is \textit{VDD}. Conversely, if $Vin - > Vin +$ the output is ground. This comparator has high performance and low voltage offset with higher gain but consumes high biasing current with high power consumption.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_26.png}
     \caption{Two-Stage OTA}
@@ -52,7 +52,7 @@ If Vout- hits first, M5 turns on, and Vout+ is pulled towards Vdd (M6 is off)M4 
     \tau_R = \frac{C_{out}}{{gm}_{5,6} + {gm}_{3,4}} 
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/DFE_img_27.png}
     \caption{Strong Arm Latch}
@@ -64,7 +64,7 @@ If Vout- hits first, M5 turns on, and Vout+ is pulled towards Vdd (M6 is off)M4 
 
 I have simulated Strong Arm and swept for input common mode voltage using those sizing:
 
-\begin{table}[h]
+\begin{table}[ht]
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
@@ -93,7 +93,7 @@ I have simulated Strong Arm and swept for input common mode voltage using those 
 
 - \textbf{Kickback Noise:} The "kickback" currents drawn from the inputs stem from several mechanisms exhibiting both differential and CM components. $V_P$ and $V_Q$ fall toward ground at unequal rates and couple to the inputs through $C_{GD1}$ and $C_{GD2}$ causing diff kickback noise. The CM kickback noise currents are much greater and occur when M7 turns on, initially drawing its drain current from $C_{GS1}$ and $C_{GS2}$, and when it turns off, with CK coupling through $C_{GD7}$ to $C_{GS1}$ and $C_{GS2}$.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_29.png}
     \caption{Kickback Noise}
@@ -114,7 +114,7 @@ To mitigate the limitations of the Strong-Arm latch, the \textbf{Double-Tail Lat
     \item \textbf{Non sensitive to variation in input common mode voltage:} due to separation of input stage from latching stage. Each has its own current, so $V_{icm}$ doesn't affect much as Strong Arm.
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.35\textwidth]{DFE img/DFE_img_30.png}
     \caption{Double Tail Latch}
@@ -142,7 +142,7 @@ CML is faster but has static current which consumes more power than Strong Arm
 
 Where Gm3 must be greater than $\frac{1}{RD}$
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_31.png}
     \caption{CML Latch}
@@ -169,7 +169,7 @@ To keep data for the whole clock period it is required to implement SR Latch aft
 
 \subsubsection*{Conventional SR Latch}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.25\textwidth]{DFE img/DFE_img_32.png}
     \caption{SR Latch}
@@ -196,7 +196,7 @@ In reset phase the drivers are off and the keepers are ON making the cross-coupl
 
 In evaluation phase, the keepers are OFF and the drivers sets the output of SR Latch.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.35\textwidth]{DFE img/DFE_img_33.png}
     \caption{Improved SR Latch}
@@ -212,7 +212,7 @@ Using capacitors to make voltage difference opposes the voltage difference cause
     V_{OS,in} = \left(\frac{I_{SS}}{2{gm}_{1,2}}\right) \left(\frac{C_P}{C_Q} - 1\right) 
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=0.6\textwidth]{DFE img/DFE_img_34.png}
     \caption{Offset Cancellation}
@@ -223,7 +223,7 @@ Adjust $C_P$ \& $C_Q$ until offset is cancelled. This method degrades speed and 
 \subsubsection*{Self Calibrating Offset}
 Voltage offset cancellation is done by using two NANDs and charge pump. The comparator offset voltage becomes less than ±1 LSB ( = Ts × Icp / CH ). The gate of MC1 is connected to Vb to set the common mode voltage of the charge pump.
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
