@@ -1,0 +1,71 @@
+\chapter{Proposed Circuit Implementation}
+\label{Chapter4}
+\lhead{Chapter 4. \emph{Proposed Circuit Implementation}}
+
+Based on the theoretical analysis and literature survey, this chapter details the circuit implementation of the proposed Receiver Analog Front-End.
+
+\section{Input Network: T-Coil Implementation}
+% [From old Ch 3 Implementation]
+The T-coil utilizes magnetic coupling to achieve superior performance per unit area. We utilized an asymmetric T-coil configuration to cancel the parasitic capacitance $C_{ESD}$.
+\begin{itemize}
+    \item \textbf{Operation Principle:} The negative mutual coupling factor ($k$) between inductors $L_1$ and $L_2$ extends the bandwidth.
+    \item \textbf{Design Choice:} The T-coil was designed to convert the 2nd-order RLC system into a 3rd-order Butterworth response for maximally flat delay.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \setlength{\fboxsep}{0pt}
+    \setlength{\fboxrule}{1pt}
+    \framebox[0.9\textwidth]{
+        \begin{minipage}{0.9\textwidth}
+            \centering
+            \vspace{3cm}
+            \textbf{[PLACEHOLDER: T-Coil Schematic]} \\
+            \vspace{3cm}
+        \end{minipage}
+    }
+    \caption{Schematic of the implemented T-Coil matching network.}
+    \label{fig:t_coil_schematic}
+\end{figure}
+
+\section{VGA: Digital Source Degeneration}
+% [From old Ch 4 Implementation]
+The chosen VGA topology is the **Source-Degenerated Differential Pair** with a digital resistor bank.
+
+\subsection{Binary-Weighted Resistor Bank}
+To provide precise dB-linear steps, $R_S$ is implemented as a binary-weighted bank controlled by bits $b_0 \dots b_5$. This ensures robust digital control and seamless integration with the adaptation loops.
+
+\subsection{Hybrid Split-Termination}
+To extend dynamic range, we implemented a **Split $50\Omega$ Termination**. This creates a "Dual-Mode" operation: a Full Gain Path for weak signals and a Half Gain Path (attenuated) for strong signals, ensuring the receiver does not saturate under high-swing conditions.
+
+\begin{figure}[H]
+    \centering
+    \setlength{\fboxsep}{0pt}
+    \setlength{\fboxrule}{1pt}
+    \framebox[0.9\textwidth]{
+        \begin{minipage}{0.9\textwidth}
+            \centering
+            \vspace{4cm}
+            \textbf{[PLACEHOLDER: VGA Schematic]} \\
+            \small{Showing Binary Bank and Split Termination} \\
+            \vspace{4cm}
+        \end{minipage}
+    }
+    \caption{Complete schematic of the proposed Hybrid VGA.}
+    \label{fig:vga_schematic}
+\end{figure}
+
+\section{Equalizer Implementation}
+% [From old Ch 5 Implementation details]
+\subsection{CTLE Design}
+The CTLE is implemented using a multi-stage source-degenerated topology to provide tunable peaking from 0 to 12 dB.
+
+\subsection{DFE Architecture}
+To satisfy the timing constraints of PCIe 6.0, we employed a **1-Tap Loop-Unrolled (Speculative)** architecture.
+\begin{itemize}
+    \item \textbf{Tap 1:} Implemented via speculation (unrolling) to remove the feedback loop delay.
+    \item \textbf{Taps 2-4:} Implemented using conventional feedback with current-steering DACs to cancel residual ISI.
+\end{itemize}
+
+\subsection{Adaptation Algorithms}
+We implemented a **Sign-Sign LMS** algorithm for coefficient adaptation. This reduces hardware complexity by using only the polarity of the error and data, suitable for high-speed CMOS implementation.
