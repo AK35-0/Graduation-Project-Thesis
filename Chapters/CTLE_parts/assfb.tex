@@ -6,7 +6,7 @@ The Active Shunt-Shunt Feedback (ASSFB) CTLE enhances bandwidth and peaking perf
 \subsubsection*{Circuit Architecture and Operation}
 \label{subsec:assfb_architecture}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.9\textwidth]{CTLE Chapter img/assfb_block diagram.png}
     \caption{Block diagram representation of the active shunt-shunt feedback system.}
@@ -15,7 +15,7 @@ The Active Shunt-Shunt Feedback (ASSFB) CTLE enhances bandwidth and peaking perf
 
 The ASSFB-CTLE concept, illustrated in Figure~\ref{fig:assfb_block_diagram}, builds upon a conventional SD-CTLE ($G_{m1}$, $R_L$, $R_s$, $C_s$) by adding two feedback transconductance stages: $G_{m3}$ (sensing) and $G_{m4}$ (mixing). The feedback path senses the output voltage through $G_{m3}$ and injects a compensating current at the input via $G_{m4}$, creating a shunt-shunt configuration. This feedback mechanism reduces both input and output impedances by a factor of $(1 + A\beta)$, where $A\beta = G_{m3}G_{m4}R_LR_{L2}$ is the loop gain. The impedance reduction enables pole pushing to higher frequencies, extending the bandwidth beyond conventional SD-CTLE limitations.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{CTLE Chapter img/assfb_schematic.png}
     \caption{Active shunt-shunt feedback CTLE circuit implementation with feedback transconductance stages [H. Hsu TCAS I '25].}
@@ -27,7 +27,7 @@ The circuit implementation, shown in Figure~\ref{fig:assfb_schematic}, realizes 
 \subsubsection{Frequency Response Analysis}
 \label{subsec:assfb_freq_response}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
@@ -68,7 +68,7 @@ As shown in Figure~\ref{fig:assfb_real}, the ASSFB-CTLE achieves 13.07 dB peakin
 \subsubsection*{Effect of Transistor Width $W_{11,12}$}
 \label{subsubsec:effect_w1112}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.4\textwidth]{CTLE Chapter img/assfb_effect of w.png}
     \caption{Frequency response variation with increasing $W_{11,12}$ in 180nm technology.}
@@ -86,7 +86,7 @@ The transistor widths $W_{11,12}$ control $G_{m4} = g_{m11,12}$, which directly 
 \subsubsection*{Effect of Bias Current $I_{\text{bias3}}$}
 \label{subsubsec:effect_ibias3}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.4\textwidth]{CTLE Chapter img/assfb_effect of i bias.png}
     \caption{Frequency response variation with increasing $I_{\text{bias3}}$ in 180nm technology.}
@@ -113,9 +113,10 @@ A\beta &= G_{m3}G_{m4}R_LR_{L2}
 \subsubsection{Design Trade-offs and Guidelines}
 \label{subsec:assfb_tradeoffs}
 
-\begin{table}[H]
+\begin{table}[htbp]
 \centering
 \label{tab:assfb_tradeoffs}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{ >{\raggedright\arraybackslash}p{0.13\textwidth} 
                  >{\raggedright\arraybackslash}p{0.30\textwidth} 
                  >{\raggedright\arraybackslash}p{0.25\textwidth} 
@@ -133,5 +134,6 @@ $\zeta_3$ & Ensures stability, controls ringing & Limits peaking if too high & T
 \midrule
 Feedback & Pole pushing, bandwidth extension & Higher area and power & Use for severe loss channels \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}

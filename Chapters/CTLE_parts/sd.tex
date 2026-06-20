@@ -6,7 +6,7 @@ The source-degenerated (SD) CTLE is the most widely adopted active equalization 
 
 Figure~\ref{fig:sd_ctle_arch} illustrates the conventional SD-CTLE topology, which consists of a differential transconductance stage with resistive loads $R_L$, and a source degeneration network composed of resistor $R_s$ and capacitor $C_s$ connected at the common-source node.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.35\textwidth]{CTLE Chapter img/SD CTLE schematic.png}
     \caption{Conventional source-degenerated CTLE circuit architecture.}
@@ -19,7 +19,7 @@ The differential pair transistors $M_1$ and $M_2$ convert the input voltage $V_{
 
 The small-signal transfer function of the source-degenerated CTLE is derived using the differential half-circuit model. Each side of the differential pair contributes a transconductance of $g_{m1,2}$, while the source degeneration resistor $R_s$ is shared between the two transistors. As a result, the effective degeneration seen in the half-circuit is $R_s/2$.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
@@ -76,7 +76,7 @@ The SD-CTLE offers four tuning parametersâ€”$R_L$, $R_s$, $C_s$, and $I_{bias}$â
 
 The load resistance $R_L$ controls DC gain and bandwidth through $\omega_{p2} = 1/(R_LC_L)$. Increasing $R_L$ boosts gain but reduces bandwidth, establishing the gain-bandwidth trade-off.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.55\textwidth]{CTLE Chapter img/effect of inc RL.png}
     \caption{Frequency response variation with increasing load resistance $R_L$.}
@@ -97,7 +97,7 @@ The effect of increasing $R_L$ can be summarized as:
 
 The degeneration resistance $R_s$ represents the most critical tuning knob for controlling the peaking magnitude in SD-CTLE. Unlike $R_L$, $R_s$ affects both the DC gain and the relative spacing between $\omega_z$ and $\omega_{p1}$, thereby directly controlling the gain boost.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=.8\textwidth]{CTLE Chapter img/effect of inc RS.png}
     \caption{Frequency response variation with increasing $R_s$: (left) asymptotic response showing ideal behavior; (right) actual response in 180nm technology.}
@@ -128,7 +128,7 @@ Increasing $R_s$ produces the following effects:
 
 The degeneration capacitance $C_s$ primarily controls the frequency location of the zero $\omega_z$ and the first pole $\omega_{p1}$, thereby setting the frequency range over which gain boosting occurs. While $R_s$ controls \textit{how much} boost, $C_s$ controls \textit{where} the boosting happens.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=.8\textwidth]{CTLE Chapter img/effect of inc CS.png}
     \caption{Frequency response variation with increasing $C_s$: (left) asymptotic ideal response; (right) actual response in 180nm technology.}
@@ -159,7 +159,7 @@ Key observations for increasing $C_s$:
 
 The bias current $I_{bias}$ controls the transconductance $g_m$ of the input differential pair, providing global gain control while affecting multiple aspects of the frequency response. This parameter offers a power-performance trade-off knob.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=.8\textwidth]{CTLE Chapter img/effect of inc ibias.png}
     \caption{Frequency response variation with increasing $I_{bias}$: (left) asymptotic ideal response; (right) actual response in 180nm technology.}
@@ -194,8 +194,9 @@ Increasing $I_{bias}$ produces these effects:
 
 The interplay between the four primary design knobs creates a multi-dimensional optimization space. Table~\ref{tab:design_knobs_summary} summarizes their effects and typical design considerations.
 
-\begin{table}[H]
+\begin{table}[htbp]
 \centering
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{ >{\raggedright\arraybackslash}p{0.12\textwidth} 
                  >{\raggedright\arraybackslash}p{0.23\textwidth} 
                  >{\raggedright\arraybackslash}p{0.25\textwidth} 
@@ -223,7 +224,8 @@ $I_{\text{bias}}$
     & Increases power, affects $\omega_{p1}$ 
     & Power-performance optimization knob \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \caption{Summary of SD-CTLE Design Knobs and Their Effects}
 \label{tab:design_knobs_summary}
 \end{table}

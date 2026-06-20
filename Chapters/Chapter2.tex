@@ -12,7 +12,7 @@ This chapter establishes the theoretical foundation of high-speed links, coverin
 \subsection{Non-Return-to-Zero (NRZ)}
 For decades, Non-Return-to-Zero (NRZ) has been the modulation scheme of choice. In NRZ, binary data is mapped directly to two voltage levels, typically +V and -V. Mathematically, the channel response to an NRZ stream can be modeled as the superposition of the channel's response to isolated "1"s and "0"s.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{DFE img/nrz.png}
     \caption{NRZ stream}
@@ -21,7 +21,7 @@ For decades, Non-Return-to-Zero (NRZ) has been the modulation scheme of choice. 
 \subsection{Pulse Amplitude Modulation (PAM-4)}
 To overcome the bandwidth limitation, Pulse Amplitude Modulation-4 (PAM-4) transmits two bits per symbol. This results in four distinct voltage levels, effectively increasing double bit rate at same Nyquist frequency.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{DFE img/DFE_img_02.png}
     \caption{NRZ Vs PAM-4}
@@ -30,7 +30,7 @@ To overcome the bandwidth limitation, Pulse Amplitude Modulation-4 (PAM-4) trans
 \subsubsection*{Gray Coding}
 PAM-4 typically employs Gray coding rather than linear coding. In linear coding, a transition between adjacent levels (e.g., Level 1 to Level 2) might involve multiple bit changes (e.g., 01 to 10). In Gray coding, adjacent levels differ by only one bit (e.g., 01 to 11).
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.4\textwidth]{DFE img/DFE_img_03.png}
     \caption{Linear coding Vs Gray coding}
@@ -44,7 +44,7 @@ The transition from NRZ to PAM-4 is not without penalty. It involves a fundament
 \subsubsection{Bandwidth Reduction}
 The primary advantage of PAM-4 is the reduction in symbol rate. For a target bit rate Rb, the symbol rate Rs is:
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{DFE img/DFE_img_04.png}
     \caption{Linear coding Vs Gray coding}
@@ -63,7 +63,7 @@ This allows the system to operate at a frequency where channel loss is significa
 \subsubsection{SNR and Eye Height Penalty}
 Because PAM-4 must fit four levels into the same voltage swing limits as NRZ, the vertical eye opening is drastically reduced. The spacing between levels in PAM-4 is 1/3 that of NRZ.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.45\textwidth]{DFE img/DFE_img_05.png}
     \includegraphics[width=0.45\textwidth]{DFE img/DFE_img_06.png}
@@ -116,7 +116,7 @@ PAM4 eye linearity is critical for low BER.
     RLM = \frac{3 \times S_{\min}}{V_3 - V_0}
 \end{equation}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.6\textwidth]{DFE img/DFE_img_07.png}
     \caption{PAM4 eye diagram (Adapted from Sam Palermo)}
@@ -170,7 +170,7 @@ In this scenario, the source impedance is significantly higher than the characte
     \item \textbf{Result:} The voltage at the receiver builds up monotonically in discrete steps (Staircase) as the wave bounces back and forth, eventually settling at $V_{source}$. This slow buildup closes the eye diagram for high-speed data.
 \end{itemize}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=.8\textwidth]{amr assets/staircase.png}
     \caption[Staircase Reflection]{Transient response showing 'Staircase' voltage buildup when $Z_S > Z_0$ (Positive $\Gamma_S$).}
@@ -185,7 +185,7 @@ In this scenario, the source impedance is significantly lower than the character
     \item \textbf{Result:} The voltage oscillates around the final value, creating severe \textbf{ringing}. This overshoot can exceed the breakdown voltage of the Rx transistors, while the subsequent undershoot can cause logic errors.
 \end{itemize}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=.8\textwidth]{amr assets/overshoot.png}
     \caption[Signal Ringing]{Severe ringing and overshoot caused when $Z_S < Z_0$ (Negative $\Gamma_S$).}
@@ -208,7 +208,7 @@ For PAM4 signaling, linearity is critical. Unlike NRZ, which only detects a zero
     %\item \textbf{dB-Linear Gain:} The gain steps should be linear-in-dB to simplify the digital automatic gain control (AGC) loops.
 \end{enumerate}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \framebox{\includegraphics[width=.8\textwidth]{amr assets/vgaideal.png}}
     \caption[VGA Performance]{Comparison of Poor vs. Desired VGA frequency response characteristics.}
@@ -234,7 +234,7 @@ The fundamental idea behind a CTLE is to approximate the inverse frequency respo
 
 In general, a CTLE operates by \textbf{Reducing low-frequency gain} and/or \textbf{Boosting high-frequency gain}. This creates a \emph{frequency peaking} behavior, where the gain increases with frequency up to a certain point, typically near the Nyquist frequency. As a result, the overall response of the channel combined with the CTLE becomes flatter, improving signal integrity.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \centering
@@ -281,7 +281,7 @@ By adjusting these parameters, the CTLE can be tuned to accommodate different ch
 
 Although CTLE design is often discussed in the frequency domain, its ultimate impact is observed in the time domain through eye diagrams.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.7\textwidth]{CTLE Chapter img/Eye_ctle.png}
     \caption{Effect of CTLE on eye diagram}
@@ -289,7 +289,7 @@ Although CTLE design is often discussed in the frequency domain, its ultimate im
 \end{figure}
 CTLEs primarily address precursor ISI by reshaping the channel's impulse response to reduce energy spreading into adjacent symbol intervals. However, excessive equalization can convert precursors into postcursors or vice versa, requiring careful design balance.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \begin{subfigure}{0.43\textwidth}
         \centering
@@ -321,7 +321,7 @@ The figure illustrates inter-symbol interference (ISI) in the time domain, showi
 
 While CTLEs effectively compensate for channel loss, they introduce important design trade-offs:
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.55\textwidth]{CTLE Chapter img/CTLE_drawback2.png}
     \caption{Noise amplification trade-off in CTLE}
@@ -346,14 +346,14 @@ The purpose of equalization in general is simply to remove or reduce the noise o
 
 The Decision Feedback Equalizer (DFE) is a non-linear equalizer that reconstructs the received signal by subtracting the interference caused by previously detected bits. Ideally, if the sequence of past bits is known correctly, their ISI contribution can be perfectly removed.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.3\textwidth]{DFE img/DFE_img_08.png}
     \includegraphics[width=0.3\textwidth]{DFE img/DFE_img_09.png}
     \caption{(a) unequalized pulse response (b) equalized pulse response}
 \end{figure}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.55\textwidth]{DFE img/DFE_img_10.png}
     \caption{Block diagram of 3 taps DFE}
@@ -371,7 +371,8 @@ DFE cannot cancel pre-cursor ISI because it relies entirely on past bit decision
 The implementation of DFE in multi-gigabit links is strictly limited by the feedback loop delay. The most critical path is the first tap (h1) loop. Once a decision is made by the comparator, it must be multiplied by the tap weight h1 and subtracted from the input signal before the next sampling edge.
 
 \begin{equation}
-    T_{regen} + T_{h1} + T_{sum} + T_{setup} < T_{clk} \tag{3.1}
+    T_{regen} + T_{h1} + T_{sum} + T_{setup} < T_{clk}
+    \label{eq:dfe_timing_constraint}
 \end{equation}
 
 Consequent taps don't have the same tough timing constraint due to the relaxed $T_{cq}$.

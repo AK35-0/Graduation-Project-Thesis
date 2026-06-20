@@ -6,7 +6,7 @@ The negative capacitance (NC) CTLE enhances the source-degenerated architecture 
 
 The NC-CTLE builds upon the conventional SD-CTLE by adding a cross-coupled pair (M5, M6) with coupling capacitors $C_c$ as shown in Figure~\ref{fig:nc_ctle_schematic}. This configuration implements a negative impedance converter that presents an effective negative capacitance $-C_{NC}$ in parallel with the source degeneration network.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=.55\textwidth]{CTLE Chapter img/NC SCHEMATIC.png}
     \caption{Negative capacitance CTLE architecture [Thomas Toifl JSSC '12].}
@@ -55,7 +55,7 @@ The negative capacitance $C_{NC} = -C_C$ effectively cancels part of the parasit
 
 \subsubsection{Enhanced Frequency Response Analysis}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \begin{minipage}{0.48\textwidth}
         \centering
@@ -101,7 +101,7 @@ The NC-CTLE inherits all tuning parameters from the SD-CTLE—$R_L$, $R_s$, $C_s
 
 The bias current $I_{NC}$ controls the transconductance $g_{m5,6}$ of the cross-coupled pair (M5, M6), which directly determines the strength of the negative capacitance effect. As shown in Figure~\ref{fig:effect_inc}, increasing $I_{NC}$ from 0.06 mA to 0.16 mA (a 2.67× rise) enhances the peaking gain by 1.9 dB at the cost of a 9.1% reduction in peaking frequency.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{CTLE Chapter img/effect of inc.png}
     \caption{Frequency response variation with increasing $I_{NC}$ from 0.06 mA to 0.16 mA in 180nm technology.}
@@ -146,7 +146,7 @@ The damping factor $\zeta$ is critical for NC-CTLE stability and time-domain per
 \]
 where $\omega_n = \sqrt{\frac{g_{m5,6}}{2R_L C_L (C_C + C_P/2)}}$ is the natural frequency, and $C_P$ is the parasitic capacitance at the source terminals of M5 and M6. Increasing $I_{\text{NC}}$ raises $g_{m5,6}$ but also $C_P$, which can significantly reduce $\zeta$, leading to under-damping and potential instability.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth]{CTLE Chapter img/nc damping factor.png}
     \caption{Impact of damping factor $\zeta$ on frequency response (top) and step response (bottom). Lower $\zeta$ increases peaking and introduces ringing.}
@@ -166,7 +166,7 @@ Figure~\ref{fig:nc_damping} illustrates the effect of $\zeta$ on both frequency 
 
 The NC-CTLE exhibits significant sensitivity to process, voltage, and temperature (PVT) variations, primarily because $\zeta$ depends directly on $g_{m5,6}$, which varies with $I_{\text{NC}}$ and transistor characteristics.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth]{CTLE Chapter img/pvt variations.png}
     \caption{PVT variations affecting NC-CTLE response across process corners and temperatures [H. Hsu TCAS I '25].}
@@ -192,7 +192,7 @@ To ensure reliable operation across all corners, the following design practices 
 
 \subsubsection*{Eye Diagram Performance and Risks}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{CTLE Chapter img/nc eye diagram.png}
     \caption{Eye diagram variation with damping factor $\zeta$. Lower $\zeta$ increases peaking but introduces ISI and jitter from ringing.}
@@ -210,10 +210,11 @@ The enhanced peaking of NC-CTLE improves eye diagrams for severely lossy channel
 
 \subsubsection{Design Trade-offs and Guidelines}
 
-\begin{table}[H]
+\begin{table}[htbp]
 \centering
 \caption{Design Trade-offs for Negative Capacitance CTLE}
 \label{tab:nc_ctle_tradeoffs}
+\resizebox{\textwidth}{!}{%
 \begin{tabular}{ >{\raggedright\arraybackslash}p{0.15\textwidth} 
                  >{\raggedright\arraybackslash}p{0.23\textwidth} 
                  >{\raggedright\arraybackslash}p{0.25\textwidth} 
@@ -231,5 +232,6 @@ $C_C$ & HF feedback coupling & Bandwidth limit with $C_P$ & Co-design with $C_P$
 \midrule
 $C_P$ & N/A (parasitic) & Reduces $\omega_n$ and $\zeta$ & Minimize layout parasitics, account in simulation \\
 \bottomrule
-\end{tabular}
+\end{tabular}%
+}
 \end{table}

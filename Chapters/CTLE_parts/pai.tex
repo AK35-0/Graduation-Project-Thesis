@@ -9,7 +9,7 @@ Passive shunt-peaking CTLEs enhance the frequency response by incorporating indu
 
 The passive shunt-peaking CTLE extends the conventional SD-CTLE architecture by adding a pair of passive inductors $L_P$ in series with the load resistors $R_L$, as shown in Figure~\ref{fig:passive_shunt_peaking_schematic}.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \begin{subfigure}[b]{0.45\textwidth}
         \centering
@@ -58,7 +58,7 @@ Active inductor CTLEs provide an area-efficient alternative to passive shunt-pea
 
 \subsubsection*{Circuit Architecture and Operation}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.6\textwidth]{CTLE Chapter img/active_schematic.png}
     \caption{Active inductor CTLE architecture implementing inductive peaking with transistor-based active inductors [H. Hsu TCAS I '25].}
@@ -93,7 +93,7 @@ where the key frequency parameters are:
 \end{aligned}
 \]
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{CTLE Chapter img/active_assymptotic_and_real.png}
     \caption{Frequency response comparison showing active inductor CTLE compared to SD-CTLE [H. Hsu TCAS I '25].}
@@ -116,7 +116,7 @@ The active inductor CTLE offers enhanced tunability through several key paramete
 
 \subsubsection*{PVT Variations and Design Margins}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth]{CTLE Chapter img/active pvt.png}
     \caption{PVT variations affecting SD-CTLE and active inductor CTLE responses across process corners.}
@@ -135,7 +135,7 @@ The active inductor CTLE shows reduced PVT sensitivity compared to SD-CTLE, with
 
 \subsubsection*{Design Trade-offs}
 
-\begin{table}[H]
+\begin{table}[htbp]
 \centering
 \caption{Active Inductor CTLE Design Trade-offs}
 \label{tab:active_ind_tradeoffs}

@@ -5,30 +5,63 @@
 \documentclass[11pt, twoside, openright]{thesis}
 
 %----------------------------------------------------------------------------------------
-%   PACKAGES
+%   PACKAGES (cleaned)
 %----------------------------------------------------------------------------------------
+% Bibliography and citations
 \usepackage[square, numbers, comma, sort&compress]{natbib}
-\usepackage{amsmath}
+
+% Math, symbols & units
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+
+% Graphics and tables
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{tabu}
-\usepackage{multirow}
+\usepackage{tabularx}
 \usepackage{longtable}
-\usepackage{pdflscape}
-\usepackage{array}
-\usepackage{hyperref}
-\usepackage{pifont}
-\usepackage{hhline}
-\usepackage{textcomp}
 \usepackage{booktabs}
-\usepackage{setspace}
-\usepackage{breqn}
-\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{pdfpages}
+
+% Layout, floats & captions
 \usepackage{float}
+\usepackage{hhline}
+\usepackage{rotating}
+
+% Algorithms and listings
 \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+
+% Miscellaneous
+\usepackage{pifont}
+\usepackage{textcomp}
+\usepackage{breqn}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
 \usepackage{notoccite} % Prevent citations in TOC from messing up numbering
+
+% Fonts & encoding
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
 \usepackage{fancyhdr}
+\usepackage{setspace}
+
+% Micro-typography to improve justification and reduce overfull boxes
+\usepackage{microtype}
+
+% Help TeX with very long lines (reduces overfull hbox occurrences)
+\emergencystretch=3em
+
+% Allow pages to be ragged at the bottom to reduce underfull vbox warnings
+\raggedbottom
+
+% Load hyperref near the end to avoid package-order warnings
+\usepackage{hyperref}
 \pagestyle{fancy}
 \setlength{\headheight}{14pt} % <--- Add this line
 \fancyhead{} % Clear all default headers
@@ -51,8 +84,20 @@
 % Graphic Path
 \graphicspath{{Pictures/}}
 
+% Ensure included graphics don't exceed text width
+\setkeys{Gin}{width=\linewidth,keepaspectratio}
+
+% Page margins (increase from narrow feel). Adjust as needed.
+\usepackage[margin=1.25in]{geometry}
+
 % Hyperlinks
 \hypersetup{urlcolor=blue, colorlinks=true}
+
+% Set sensible default float placement to avoid forcing '[H]' and many warnings
+\makeatletter
+\renewcommand{\fps@figure}{htbp}
+\renewcommand{\fps@table}{htbp}
+\makeatother
 
 %----------------------------------------------------------------------------------------
 %   INCLUDE ONLY (THE SPEED HACK)

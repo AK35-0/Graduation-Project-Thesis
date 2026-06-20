@@ -25,7 +25,7 @@ Early systems relied on the Peripheral Component Interconnect (PCI) bus, a paral
 \subsection{The Shift to Serial PCIe}
 PCI Express (PCIe) abandoned the parallel bus in favor of point-to-point serial links. By embedding the clock within the data stream (Clock and Data Recovery), PCIe eliminated clock skew issues, allowing for scalable frequency increases from Gen 1 (2.5 GT/s) to Gen 6 (64 GT/s).
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{amr assets/pcivpcie.png} 
     
@@ -36,7 +36,7 @@ PCI Express (PCIe) abandoned the parallel bus in favor of point-to-point serial 
 \subsection{Evolution of PCIe}
 PCIe has evolved from a simple serial interface to a complex high-performance interconnect. The standard has doubled its data rate approximately every three years while maintaining backward compatibility.
 
-\begin{table}[H]
+\begin{table}[htbp]
 \centering
 \small % Reduces font size slightly for a cleaner look
 \begin{tabular}{|l|l|l|l|l|}
@@ -61,7 +61,7 @@ The PCIe protocol is structured into three primary layers:
     \item \textbf{Physical Layer:} Handles the electrical signaling, encoding, and equalization (the focus of this project).
 \end{enumerate}
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.5\textwidth]{amr assets/pciearc.png}
     \caption[PCIe Layer Architecture]{PCIe Protocol Stack and Layer Architecture. (\href{https://www.scribd.com/document/866301752/Introduction-to-PCIe-and-CXL-1746566446}{CERN})}
@@ -73,7 +73,7 @@ The PCIe protocol is structured into three primary layers:
 \subsection{PAM4 Signaling}
 As shown in Table \ref{tab:pcie_generations}, PCIe 6.0 maintains the 16 GHz Nyquist frequency of Gen 5 but doubles the throughput. This is achieved using Pulse Amplitude Modulation 4-level (PAM4), which encodes 2 bits per symbol.
 
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \framebox{\includegraphics[width=0.7\textwidth]{amr assets/pam4vnrz.png}}
     \caption[Signaling Comparison]{Comparison of NRZ vs. PAM4 Signaling. (\href{https://www.htfwdm.com/info/what-is-pam4-in-400g-53807632.html}{HTF Future})}
@@ -96,7 +96,7 @@ To support the low-latency requirements of high-performance computing, PCIe 6.0 
 \end{itemize}
 
 % FIGURE PLACEHOLDER: FLIT STRUCTURE
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
     \framebox{\includegraphics[width=0.8\textwidth]{amr assets/flit.png}}
     \caption[FLIT Structure]{PCIe 6.0 FLIT Structure showing TLP data, CRC, and FEC parity distribution.}
